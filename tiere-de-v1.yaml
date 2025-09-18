@@ -1,0 +1,163 @@
+# schema: swipey-catalog v1
+catalog:
+  id: tiere-de-v1
+  title: "Tiere – Grundstufe"
+  language: de
+  version: 1
+  tags: [tiere, kinder, grundschule]
+  difficulty: beginner
+  categories: ["Haustiere", "Wildtiere", "Vögel", "Wassertiere"]
+  shuffle: true
+  swipe_mapping:
+    left: option_a
+    right: option_b
+  cards:
+    - id: katze-001
+      prompt: "Welches Tier siehst du?"
+      media:
+        image: "media/katze.png"
+        alt: "Eine sitzende Katze"
+      option_a:
+        label: "Katze"
+        correct: true
+      option_b:
+        label: "Hund"
+        correct: false
+      explanation: "Spitze Ohren, Schnurrhaare – das ist eine Katze."
+      category: "Haustiere"
+      difficulty: beginner
+
+    - id: hund-002
+      prompt: "Welches Tier bellt?"
+      media:
+        image: "media/hund.png"
+        alt: "Ein fröhlicher Hund"
+      option_a:
+        label: "Hund"
+        correct: true
+      option_b:
+        label: "Katze"
+        correct: false
+      explanation: "Hunde bellen, Katzen miauen."
+      category: "Haustiere"
+      difficulty: beginner
+
+    - id: fisch-003
+      prompt: "Welches Tier lebt im Wasser?"
+      media:
+        image: "media/fisch.png"
+        alt: "Ein bunter Fisch"
+      option_a:
+        label: "Fisch"
+        correct: true
+      option_b:
+        label: "Maus"
+        correct: false
+      explanation: "Fische sind Wassertiere und atmen mit Kiemen."
+      category: "Wassertiere"
+      difficulty: beginner
+
+    - id: adler-004
+      prompt: "Welches Tier kann hoch fliegen?"
+      media:
+        image: "media/adler.png"
+        alt: "Ein Adler mit ausgebreiteten Flügeln"
+      option_a:
+        label: "Adler"
+        correct: true
+      option_b:
+        label: "Schildkröte"
+        correct: false
+      explanation: "Adler sind Greifvögel mit großen Flügeln."
+      category: "Vögel"
+      difficulty: beginner
+
+    - id: schildkroete-005
+      prompt: "Welches Tier hat einen Panzer?"
+      media:
+        image: "media/schildkroete.png"
+        alt: "Eine Schildkröte"
+      option_a:
+        label: "Schlange"
+        correct: false
+      option_b:
+        label: "Schildkröte"
+        correct: true
+      explanation: "Schildkröten haben einen harten Schutzpanzer."
+      category: "Wassertiere"
+      difficulty: beginner
+
+    - id: elefant-006
+      prompt: "Welches Tier hat einen Rüssel?"
+      media:
+        image: "media/elefant.png"
+        alt: "Ein großer Elefant"
+      option_a:
+        label: "Elefant"
+        correct: true
+      option_b:
+        label: "Giraffe"
+        correct: false
+      explanation: "Der Rüssel ist typisch für Elefanten."
+      category: "Wildtiere"
+      difficulty: beginner
+
+    - id: giraffe-007
+      prompt: "Welches Tier hat einen besonders langen Hals?"
+      media:
+        image: "media/giraffe.png"
+        alt: "Eine Giraffe"
+      option_a:
+        label: "Giraffe"
+        correct: true
+      option_b:
+        label: "Pferd"
+        correct: false
+      explanation: "Giraffen sind die größten Landsäugetiere."
+      category: "Wildtiere"
+      difficulty: beginner
+
+    - id: pinguin-008
+      prompt: "Welches Tier ist ein Vogel, kann aber nicht fliegen?"
+      media:
+        image: "media/pinguin.png"
+        alt: "Ein Pinguin"
+      option_a:
+        label: "Pinguin"
+        correct: true
+      option_b:
+        label: "Spatz"
+        correct: false
+      explanation: "Pinguine sind Vögel, sie schwimmen und tauchen statt zu fliegen."
+      category: "Vögel"
+      difficulty: beginner
+
+    - id: pferd-009
+      prompt: "Welches Tier wird oft geritten?"
+      media:
+        image: "media/pferd.png"
+        alt: "Ein Pferd"
+      option_a:
+        label: "Pferd"
+        correct: true
+      option_b:
+        label: "Kuh"
+        correct: false
+      explanation: "Pferde sind Reit- und Arbeitstiere."
+      category: "Haustiere"
+      difficulty: beginner
+
+    - id: loewe-010
+      prompt: "Welches Tier wird 'König der Tiere' genannt?"
+      media:
+        image: "media/loewe.png"
+        alt: "Ein Löwe"
+      option_a:
+        label: "Löwe"
+        correct: true
+      option_b:
+        label: "Fuchs"
+        correct: false
+      explanation: "Der Löwe gilt als 'König der Tiere' wegen seiner Stärke."
+      category: "Wildtiere"
+      difficulty: beginner

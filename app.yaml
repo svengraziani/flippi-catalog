@@ -1,0 +1,14 @@
+version: "2025-09-18-01"          # ändert sich bei jeder Veröffentlichung
+catalogs:
+  - id: "math-basics"
+    version: "1.2.0"
+    url: "https://res.cloudinary.com/<cloud>/raw/upload/catalogs/math-basics.yml"
+    meta:
+      title: "Mathe: Grundlagen"
+      locale: "de-AT"
+  - id: "tiere-de-v1"
+    version: "1.0.0"
+    url: "./tiere-de-v1.yaml"
+    meta:
+      title: "Tiere A1"
+      locale: "de-AT"
