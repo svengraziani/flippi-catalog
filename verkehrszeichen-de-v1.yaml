@@ -1,0 +1,104 @@
+catalog:
+  id: at-verkehrszeichen-v1
+  title: "Österreichische Verkehrszeichen – SVG-Katalog"
+  language: de
+  version: 1
+  tags: [österreich, verkehrszeichen, svg, stvo]
+  difficulty: medium
+  categories: ["Gefahrenzeichen (§50)", "Verbots/Beschränkungszeichen (§52a)", "Gebotszeichen (§52b)", "Vorrangzeichen (§52c)"]
+  shuffle: true
+  swipe_mapping:
+    left: option_a
+    right: option_b
+  cards:
+
+    # ---------- §52 lit. a) Verbots- oder Beschränkungszeichen ----------
+    - id: vz-52a-001
+      prompt: "Welches Zeichen ist „Fahrverbot (in beiden Richtungen)“?"
+      media:
+        image: "https://upload.wikimedia.org/wikipedia/commons/3/37/Vorschriftszeichen_1.svg"
+        alt: "Vorschriftszeichen 1 – Fahrverbot (in beiden Richtungen)"
+      option_a:
+        label: "Fahrverbot (in beiden Richtungen)"
+        correct: true
+      option_b:
+        label: "Durchfahrt erlaubt"
+        correct: false
+      explanation: "Roter Ring ohne Symbol bedeutet Fahrverbot in beide Richtungen."
+      category: "Verbots/Beschränkungszeichen (§52a)"
+      difficulty: medium
+
+    - id: vz-52a-002
+      prompt: "Welches Zeichen ist „Einfahrt verboten“?"
+      media:
+        image: "https://upload.wikimedia.org/wikipedia/commons/d/d0/Vorschriftszeichen_2.svg"
+        alt: "Vorschriftszeichen 2 – Einfahrt verboten"
+      option_a:
+        label: "Einfahrt verboten"
+        correct: true
+      option_b:
+        label: "Gegenverkehr hat Vorrang"
+        correct: false
+      explanation: "Rote Scheibe mit weißem Balken: Einfahrt verboten."
+      category: "Verbots/Beschränkungszeichen (§52a)"
+      difficulty: medium
+
+    - id: vz-52a-003a
+      prompt: "Welches Zeichen ist „Einbiegen nach links verboten“?"
+      media:
+        image: "https://upload.wikimedia.org/wikipedia/commons/9/98/Vorschriftszeichen_3a.svg"
+        alt: "Vorschriftszeichen 3a – Einbiegen nach links verboten"
+      option_a:
+        label: "Einbiegen nach links verboten"
+        correct: true
+      option_b:
+        label: "Linksabbiegen vorgeschrieben"
+        correct: false
+      explanation: "Durchgestrichener Linkspfeil."
+      category: "Verbots/Beschränkungszeichen (§52a)"
+      difficulty: medium
+
+    - id: vz-52a-003b
+      prompt: "Welches Zeichen ist „Einbiegen nach rechts verboten“?"
+      media:
+        image: "https://upload.wikimedia.org/wikipedia/commons/3/36/Vorschriftszeichen_3b.svg"
+        alt: "Vorschriftszeichen 3b – Einbiegen nach rechts verboten"
+      option_a:
+        label: "Einbiegen nach rechts verboten"
+        correct: true
+      option_b:
+        label: "Rechtsabbiegen vorgeschrieben"
+        correct: false
+      explanation: "Durchgestrichener Rechtspfeil."
+      category: "Verbots/Beschränkungszeichen (§52a)"
+      difficulty: medium
+
+    - id: vz-52a-003c
+      prompt: "Welches Zeichen ist „Umkehren verboten“?"
+      media:
+        image: "https://upload.wikimedia.org/wikipedia/commons/8/8a/Vorschriftszeichen_3c.svg"
+        alt: "Vorschriftszeichen 3c – Umkehren verboten"
+      option_a:
+        label: "Umkehren verboten"
+        correct: true
+      option_b:
+        label: "Wenden erlaubt"
+        correct: false
+      explanation: "Durchgestrichener U-Turn."
+      category: "Verbots/Beschränkungszeichen (§52a)"
+      difficulty: medium
+
+    - id: vz-52a-004a
+      prompt: "Welches Zeichen ist „Überholen von mehrspurigen KFZ verboten“?"
+      media:
+        image: "https://upload.wikimedia.org/wikipedia/commons/6/6c/Vorschriftszeichen_4a.svg"
+        alt: "Vorschriftszeichen 4a – Überholen verboten"
+      option_a:
+        label: "Überholen von mehrspurigen KFZ verboten"
+        correct: true
+      option_b:
+        label: "Ende des Überholverbotes"
+        correct: false
+      explanation: "Rotes Auto links, schwarzes rechts: Überholverbot."
+      category: "Verbots/Beschränkungszeichen (§52a)"
+      difficulty: medium

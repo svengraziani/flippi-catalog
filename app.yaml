@@ -6,3 +6,9 @@ catalogs:
     meta:
       title: "Tiere A1"
       locale: "de-AT"
+  - id: "verkehrszeichen-de-v1"
+    version: "1.0.0"
+    url: "https://raw.githubusercontent.com/svengraziani/flippi-catalog/refs/heads/main/verkehrszeichen-de-v1.yaml"
+    meta:
+      title: "Verkehrszeichen A1"
+      locale: "de-AT"
