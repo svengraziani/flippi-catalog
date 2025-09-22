@@ -10,23 +10,23 @@ catalog:
   swipe_mapping:
     left: option_a
     right: option_b
-  generated_at: "2025-09-22T06:08:21.946775Z"
+  generated_at: "2025-09-22T06:22:04.596305Z"
   cards:
-    - id: allgemeine-geschwindigkeitsbeschraenkung-oesterreich-§53-22
+    - id: allgemeine_geschwindigkeitsbeschraenkung_oesterreich
       prompt: "Welches Zeichen siehst du?"
       media:
-        image: "https://raw.githubusercontent.com/svengraziani/flippi-catalog/refs/heads/main/verkehrszeichen/Allgemeine_Geschwindigkeitsbeschr%C3%A4nkung_%C3%96sterreich_%C2%A753-22.svg"
-        alt: "Allgemeine Geschwindigkeitsbeschränkung Österreich §53-22"
+        image: "https://raw.githubusercontent.com/svengraziani/flippi-catalog/refs/heads/main/verkehrszeichen/Allgemeine_Geschwindigkeitsbeschraenkung_oesterreich.svg"
+        alt: "Allgemeine Geschwindigkeitsbeschraenkung oesterreich"
       option_a:
-        label: "Allgemeine Geschwindigkeitsbeschränkung Österreich §53-22"
+        label: "Allgemeine Geschwindigkeitsbeschraenkung oesterreich"
         correct: true
       option_b:
         label: "Anderes Verkehrszeichen"
         correct: false
-      explanation: "Richtig ist Option A. Quelle: StVO – Zeichen: Allgemeine Geschwindigkeitsbeschränkung Österreich §53-22."
+      explanation: "Richtig ist Option A. Quelle: StVO – Zeichen: Allgemeine Geschwindigkeitsbeschraenkung oesterreich."
       category: "Verbots/Beschränkungszeichen (§52a)"
       difficulty: medium
-    - id: auf-pfeifsignal-achten
+    - id: auf_pfeifsignal_achten
       prompt: "Welches Zeichen siehst du?"
       media:
         image: "https://raw.githubusercontent.com/svengraziani/flippi-catalog/refs/heads/main/verkehrszeichen/Auf_Pfeifsignal_achten.svg"
@@ -38,20 +38,20 @@ catalog:
         label: "Anderes Verkehrszeichen"
         correct: false
       explanation: "Richtig ist Option A. Quelle: StVO – Zeichen: Auf Pfeifsignal achten."
-      category: "Hinweiszeichen"
+      category: "Sonstige"
       difficulty: medium
-    - id: austria-hinweiszeichen-17a-2010
+    - id: austria_ortstafel_hinweiszeichen_17a
       prompt: "Welches Zeichen siehst du?"
       media:
-        image: "https://raw.githubusercontent.com/svengraziani/flippi-catalog/refs/heads/main/verkehrszeichen/Austria%2C_Hinweiszeichen_17a_%282010%29.svg"
-        alt: "Austria, Hinweiszeichen 17a (2010)"
+        image: "https://raw.githubusercontent.com/svengraziani/flippi-catalog/refs/heads/main/verkehrszeichen/Austria_ortstafel_Hinweiszeichen_17a.svg"
+        alt: "Austria ortstafel Hinweiszeichen 17a"
       option_a:
-        label: "Austria, Hinweiszeichen 17a (2010)"
+        label: "Austria ortstafel Hinweiszeichen 17a"
         correct: true
       option_b:
         label: "Anderes Verkehrszeichen"
         correct: false
-      explanation: "Richtig ist Option A. Quelle: StVO – Zeichen: Austria, Hinweiszeichen 17a (2010)."
+      explanation: "Richtig ist Option A. Quelle: StVO – Zeichen: Austria ortstafel Hinweiszeichen 17a."
       category: "Hinweiszeichen"
       difficulty: medium
     - id: b21a
@@ -68,7 +68,7 @@ catalog:
       explanation: "Richtig ist Option A. Quelle: StVO – Zeichen: B21a."
       category: "Vorrangzeichen (§52c)"
       difficulty: medium
-    - id: gefahrenzeichen-1
+    - id: gefahrenzeichen_1
       prompt: "Welches Zeichen siehst du?"
       media:
         image: "https://raw.githubusercontent.com/svengraziani/flippi-catalog/refs/heads/main/verkehrszeichen/Gefahrenzeichen_1.svg"
@@ -82,7 +82,7 @@ catalog:
       explanation: "Richtig ist Option A. Quelle: StVO – Zeichen: Gefahrenzeichen 1."
       category: "Gefahrenzeichen (§50)"
       difficulty: medium
-    - id: gefahrenzeichen-10
+    - id: gefahrenzeichen_10
       prompt: "Welches Zeichen siehst du?"
       media:
         image: "https://raw.githubusercontent.com/svengraziani/flippi-catalog/refs/heads/main/verkehrszeichen/Gefahrenzeichen_10.svg"
@@ -96,7 +96,7 @@ catalog:
       explanation: "Richtig ist Option A. Quelle: StVO – Zeichen: Gefahrenzeichen 10."
       category: "Gefahrenzeichen (§50)"
       difficulty: medium
-    - id: gefahrenzeichen-10a
+    - id: gefahrenzeichen_10a
       prompt: "Welches Zeichen siehst du?"
       media:
         image: "https://raw.githubusercontent.com/svengraziani/flippi-catalog/refs/heads/main/verkehrszeichen/Gefahrenzeichen_10a.svg"
@@ -110,7 +110,7 @@ catalog:
       explanation: "Richtig ist Option A. Quelle: StVO – Zeichen: Gefahrenzeichen 10a."
       category: "Gefahrenzeichen (§50)"
       difficulty: medium
-    - id: gefahrenzeichen-10b
+    - id: gefahrenzeichen_10b
       prompt: "Welches Zeichen siehst du?"
       media:
         image: "https://raw.githubusercontent.com/svengraziani/flippi-catalog/refs/heads/main/verkehrszeichen/Gefahrenzeichen_10b.svg"
@@ -124,7 +124,7 @@ catalog:
       explanation: "Richtig ist Option A. Quelle: StVO – Zeichen: Gefahrenzeichen 10b."
       category: "Gefahrenzeichen (§50)"
       difficulty: medium
-    - id: gefahrenzeichen-10c
+    - id: gefahrenzeichen_10c
       prompt: "Welches Zeichen siehst du?"
       media:
         image: "https://raw.githubusercontent.com/svengraziani/flippi-catalog/refs/heads/main/verkehrszeichen/Gefahrenzeichen_10c.svg"
@@ -138,7 +138,7 @@ catalog:
       explanation: "Richtig ist Option A. Quelle: StVO – Zeichen: Gefahrenzeichen 10c."
       category: "Gefahrenzeichen (§50)"
       difficulty: medium
-    - id: gefahrenzeichen-11
+    - id: gefahrenzeichen_11
       prompt: "Welches Zeichen siehst du?"
       media:
         image: "https://raw.githubusercontent.com/svengraziani/flippi-catalog/refs/heads/main/verkehrszeichen/Gefahrenzeichen_11.svg"
@@ -152,7 +152,7 @@ catalog:
       explanation: "Richtig ist Option A. Quelle: StVO – Zeichen: Gefahrenzeichen 11."
       category: "Gefahrenzeichen (§50)"
       difficulty: medium
-    - id: gefahrenzeichen-11a
+    - id: gefahrenzeichen_11a
       prompt: "Welches Zeichen siehst du?"
       media:
         image: "https://raw.githubusercontent.com/svengraziani/flippi-catalog/refs/heads/main/verkehrszeichen/Gefahrenzeichen_11a.svg"
@@ -166,7 +166,7 @@ catalog:
       explanation: "Richtig ist Option A. Quelle: StVO – Zeichen: Gefahrenzeichen 11a."
       category: "Gefahrenzeichen (§50)"
       difficulty: medium
-    - id: gefahrenzeichen-12
+    - id: gefahrenzeichen_12
       prompt: "Welches Zeichen siehst du?"
       media:
         image: "https://raw.githubusercontent.com/svengraziani/flippi-catalog/refs/heads/main/verkehrszeichen/Gefahrenzeichen_12.svg"
@@ -180,7 +180,7 @@ catalog:
       explanation: "Richtig ist Option A. Quelle: StVO – Zeichen: Gefahrenzeichen 12."
       category: "Gefahrenzeichen (§50)"
       difficulty: medium
-    - id: gefahrenzeichen-13a
+    - id: gefahrenzeichen_13a
       prompt: "Welches Zeichen siehst du?"
       media:
         image: "https://raw.githubusercontent.com/svengraziani/flippi-catalog/refs/heads/main/verkehrszeichen/Gefahrenzeichen_13a.svg"
@@ -194,7 +194,7 @@ catalog:
       explanation: "Richtig ist Option A. Quelle: StVO – Zeichen: Gefahrenzeichen 13a."
       category: "Gefahrenzeichen (§50)"
       difficulty: medium
-    - id: gefahrenzeichen-13b
+    - id: gefahrenzeichen_13b
       prompt: "Welches Zeichen siehst du?"
       media:
         image: "https://raw.githubusercontent.com/svengraziani/flippi-catalog/refs/heads/main/verkehrszeichen/Gefahrenzeichen_13b.svg"
@@ -208,7 +208,7 @@ catalog:
       explanation: "Richtig ist Option A. Quelle: StVO – Zeichen: Gefahrenzeichen 13b."
       category: "Gefahrenzeichen (§50)"
       difficulty: medium
-    - id: gefahrenzeichen-14
+    - id: gefahrenzeichen_14
       prompt: "Welches Zeichen siehst du?"
       media:
         image: "https://raw.githubusercontent.com/svengraziani/flippi-catalog/refs/heads/main/verkehrszeichen/Gefahrenzeichen_14.svg"
@@ -222,7 +222,7 @@ catalog:
       explanation: "Richtig ist Option A. Quelle: StVO – Zeichen: Gefahrenzeichen 14."
       category: "Gefahrenzeichen (§50)"
       difficulty: medium
-    - id: gefahrenzeichen-14a
+    - id: gefahrenzeichen_14a
       prompt: "Welches Zeichen siehst du?"
       media:
         image: "https://raw.githubusercontent.com/svengraziani/flippi-catalog/refs/heads/main/verkehrszeichen/Gefahrenzeichen_14a.svg"
@@ -236,7 +236,7 @@ catalog:
       explanation: "Richtig ist Option A. Quelle: StVO – Zeichen: Gefahrenzeichen 14a."
       category: "Gefahrenzeichen (§50)"
       difficulty: medium
-    - id: gefahrenzeichen-15
+    - id: gefahrenzeichen_15
       prompt: "Welches Zeichen siehst du?"
       media:
         image: "https://raw.githubusercontent.com/svengraziani/flippi-catalog/refs/heads/main/verkehrszeichen/Gefahrenzeichen_15.svg"
@@ -250,7 +250,7 @@ catalog:
       explanation: "Richtig ist Option A. Quelle: StVO – Zeichen: Gefahrenzeichen 15."
       category: "Gefahrenzeichen (§50)"
       difficulty: medium
-    - id: gefahrenzeichen-16
+    - id: gefahrenzeichen_16
       prompt: "Welches Zeichen siehst du?"
       media:
         image: "https://raw.githubusercontent.com/svengraziani/flippi-catalog/refs/heads/main/verkehrszeichen/Gefahrenzeichen_16.svg"
@@ -264,21 +264,21 @@ catalog:
       explanation: "Richtig ist Option A. Quelle: StVO – Zeichen: Gefahrenzeichen 16."
       category: "Gefahrenzeichen (§50)"
       difficulty: medium
-    - id: gefahrenzeichen-16-old
+    - id: gefahrenzeichen_16_old
       prompt: "Welches Zeichen siehst du?"
       media:
-        image: "https://raw.githubusercontent.com/svengraziani/flippi-catalog/refs/heads/main/verkehrszeichen/Gefahrenzeichen_16_%28old%29.svg"
-        alt: "Gefahrenzeichen 16 (old)"
+        image: "https://raw.githubusercontent.com/svengraziani/flippi-catalog/refs/heads/main/verkehrszeichen/Gefahrenzeichen_16_old.svg"
+        alt: "Gefahrenzeichen 16 old"
       option_a:
-        label: "Gefahrenzeichen 16 (old)"
+        label: "Gefahrenzeichen 16 old"
         correct: true
       option_b:
         label: "Anderes Verkehrszeichen"
         correct: false
-      explanation: "Richtig ist Option A. Quelle: StVO – Zeichen: Gefahrenzeichen 16 (old)."
+      explanation: "Richtig ist Option A. Quelle: StVO – Zeichen: Gefahrenzeichen 16 old."
       category: "Gefahrenzeichen (§50)"
       difficulty: medium
-    - id: gefahrenzeichen-2a
+    - id: gefahrenzeichen_2a
       prompt: "Welches Zeichen siehst du?"
       media:
         image: "https://raw.githubusercontent.com/svengraziani/flippi-catalog/refs/heads/main/verkehrszeichen/Gefahrenzeichen_2a.svg"
@@ -292,7 +292,7 @@ catalog:
       explanation: "Richtig ist Option A. Quelle: StVO – Zeichen: Gefahrenzeichen 2a."
       category: "Gefahrenzeichen (§50)"
       difficulty: medium
-    - id: gefahrenzeichen-2b
+    - id: gefahrenzeichen_2b
       prompt: "Welches Zeichen siehst du?"
       media:
         image: "https://raw.githubusercontent.com/svengraziani/flippi-catalog/refs/heads/main/verkehrszeichen/Gefahrenzeichen_2b.svg"
@@ -306,7 +306,7 @@ catalog:
       explanation: "Richtig ist Option A. Quelle: StVO – Zeichen: Gefahrenzeichen 2b."
       category: "Gefahrenzeichen (§50)"
       difficulty: medium
-    - id: gefahrenzeichen-2c
+    - id: gefahrenzeichen_2c
       prompt: "Welches Zeichen siehst du?"
       media:
         image: "https://raw.githubusercontent.com/svengraziani/flippi-catalog/refs/heads/main/verkehrszeichen/Gefahrenzeichen_2c.svg"
@@ -320,7 +320,7 @@ catalog:
       explanation: "Richtig ist Option A. Quelle: StVO – Zeichen: Gefahrenzeichen 2c."
       category: "Gefahrenzeichen (§50)"
       difficulty: medium
-    - id: gefahrenzeichen-2d
+    - id: gefahrenzeichen_2d
       prompt: "Welches Zeichen siehst du?"
       media:
         image: "https://raw.githubusercontent.com/svengraziani/flippi-catalog/refs/heads/main/verkehrszeichen/Gefahrenzeichen_2d.svg"
@@ -334,7 +334,7 @@ catalog:
       explanation: "Richtig ist Option A. Quelle: StVO – Zeichen: Gefahrenzeichen 2d."
       category: "Gefahrenzeichen (§50)"
       difficulty: medium
-    - id: gefahrenzeichen-3
+    - id: gefahrenzeichen_3
       prompt: "Welches Zeichen siehst du?"
       media:
         image: "https://raw.githubusercontent.com/svengraziani/flippi-catalog/refs/heads/main/verkehrszeichen/Gefahrenzeichen_3.svg"
@@ -348,7 +348,7 @@ catalog:
       explanation: "Richtig ist Option A. Quelle: StVO – Zeichen: Gefahrenzeichen 3."
       category: "Gefahrenzeichen (§50)"
       difficulty: medium
-    - id: gefahrenzeichen-3a
+    - id: gefahrenzeichen_3a
       prompt: "Welches Zeichen siehst du?"
       media:
         image: "https://raw.githubusercontent.com/svengraziani/flippi-catalog/refs/heads/main/verkehrszeichen/Gefahrenzeichen_3a.svg"
@@ -362,7 +362,7 @@ catalog:
       explanation: "Richtig ist Option A. Quelle: StVO – Zeichen: Gefahrenzeichen 3a."
       category: "Gefahrenzeichen (§50)"
       difficulty: medium
-    - id: gefahrenzeichen-4
+    - id: gefahrenzeichen_4
       prompt: "Welches Zeichen siehst du?"
       media:
         image: "https://raw.githubusercontent.com/svengraziani/flippi-catalog/refs/heads/main/verkehrszeichen/Gefahrenzeichen_4.svg"
@@ -376,7 +376,7 @@ catalog:
       explanation: "Richtig ist Option A. Quelle: StVO – Zeichen: Gefahrenzeichen 4."
       category: "Gefahrenzeichen (§50)"
       difficulty: medium
-    - id: gefahrenzeichen-6a
+    - id: gefahrenzeichen_6a
       prompt: "Welches Zeichen siehst du?"
       media:
         image: "https://raw.githubusercontent.com/svengraziani/flippi-catalog/refs/heads/main/verkehrszeichen/Gefahrenzeichen_6a.svg"
@@ -390,7 +390,7 @@ catalog:
       explanation: "Richtig ist Option A. Quelle: StVO – Zeichen: Gefahrenzeichen 6a."
       category: "Gefahrenzeichen (§50)"
       difficulty: medium
-    - id: gefahrenzeichen-6b
+    - id: gefahrenzeichen_6b
       prompt: "Welches Zeichen siehst du?"
       media:
         image: "https://raw.githubusercontent.com/svengraziani/flippi-catalog/refs/heads/main/verkehrszeichen/Gefahrenzeichen_6b.svg"
@@ -404,7 +404,7 @@ catalog:
       explanation: "Richtig ist Option A. Quelle: StVO – Zeichen: Gefahrenzeichen 6b."
       category: "Gefahrenzeichen (§50)"
       difficulty: medium
-    - id: gefahrenzeichen-6c-iii-links
+    - id: gefahrenzeichen_6c_iii_links
       prompt: "Welches Zeichen siehst du?"
       media:
         image: "https://raw.githubusercontent.com/svengraziani/flippi-catalog/refs/heads/main/verkehrszeichen/Gefahrenzeichen_6c_III_links.svg"
@@ -418,7 +418,7 @@ catalog:
       explanation: "Richtig ist Option A. Quelle: StVO – Zeichen: Gefahrenzeichen 6c III links."
       category: "Gefahrenzeichen (§50)"
       difficulty: medium
-    - id: gefahrenzeichen-6c-iii-rechts
+    - id: gefahrenzeichen_6c_iii_rechts
       prompt: "Welches Zeichen siehst du?"
       media:
         image: "https://raw.githubusercontent.com/svengraziani/flippi-catalog/refs/heads/main/verkehrszeichen/Gefahrenzeichen_6c_III_rechts.svg"
@@ -432,7 +432,7 @@ catalog:
       explanation: "Richtig ist Option A. Quelle: StVO – Zeichen: Gefahrenzeichen 6c III rechts."
       category: "Gefahrenzeichen (§50)"
       difficulty: medium
-    - id: gefahrenzeichen-6c-ii-links
+    - id: gefahrenzeichen_6c_ii_links
       prompt: "Welches Zeichen siehst du?"
       media:
         image: "https://raw.githubusercontent.com/svengraziani/flippi-catalog/refs/heads/main/verkehrszeichen/Gefahrenzeichen_6c_II_links.svg"
@@ -446,7 +446,7 @@ catalog:
       explanation: "Richtig ist Option A. Quelle: StVO – Zeichen: Gefahrenzeichen 6c II links."
       category: "Gefahrenzeichen (§50)"
       difficulty: medium
-    - id: gefahrenzeichen-6c-ii-rechts
+    - id: gefahrenzeichen_6c_ii_rechts
       prompt: "Welches Zeichen siehst du?"
       media:
         image: "https://raw.githubusercontent.com/svengraziani/flippi-catalog/refs/heads/main/verkehrszeichen/Gefahrenzeichen_6c_II_rechts.svg"
@@ -460,7 +460,7 @@ catalog:
       explanation: "Richtig ist Option A. Quelle: StVO – Zeichen: Gefahrenzeichen 6c II rechts."
       category: "Gefahrenzeichen (§50)"
       difficulty: medium
-    - id: gefahrenzeichen-6c-i-links
+    - id: gefahrenzeichen_6c_i_links
       prompt: "Welches Zeichen siehst du?"
       media:
         image: "https://raw.githubusercontent.com/svengraziani/flippi-catalog/refs/heads/main/verkehrszeichen/Gefahrenzeichen_6c_I_links.svg"
@@ -474,7 +474,7 @@ catalog:
       explanation: "Richtig ist Option A. Quelle: StVO – Zeichen: Gefahrenzeichen 6c I links."
       category: "Gefahrenzeichen (§50)"
       difficulty: medium
-    - id: gefahrenzeichen-6c-i-rechts
+    - id: gefahrenzeichen_6c_i_rechts
       prompt: "Welches Zeichen siehst du?"
       media:
         image: "https://raw.githubusercontent.com/svengraziani/flippi-catalog/refs/heads/main/verkehrszeichen/Gefahrenzeichen_6c_I_rechts.svg"
@@ -488,7 +488,7 @@ catalog:
       explanation: "Richtig ist Option A. Quelle: StVO – Zeichen: Gefahrenzeichen 6c I rechts."
       category: "Gefahrenzeichen (§50)"
       difficulty: medium
-    - id: gefahrenzeichen-6d
+    - id: gefahrenzeichen_6d
       prompt: "Welches Zeichen siehst du?"
       media:
         image: "https://raw.githubusercontent.com/svengraziani/flippi-catalog/refs/heads/main/verkehrszeichen/Gefahrenzeichen_6d.svg"
@@ -502,7 +502,7 @@ catalog:
       explanation: "Richtig ist Option A. Quelle: StVO – Zeichen: Gefahrenzeichen 6d."
       category: "Gefahrenzeichen (§50)"
       difficulty: medium
-    - id: gefahrenzeichen-6d-tafel
+    - id: gefahrenzeichen_6d_tafel
       prompt: "Welches Zeichen siehst du?"
       media:
         image: "https://raw.githubusercontent.com/svengraziani/flippi-catalog/refs/heads/main/verkehrszeichen/Gefahrenzeichen_6d_Tafel.svg"
@@ -516,7 +516,7 @@ catalog:
       explanation: "Richtig ist Option A. Quelle: StVO – Zeichen: Gefahrenzeichen 6d Tafel."
       category: "Gefahrenzeichen (§50)"
       difficulty: medium
-    - id: gefahrenzeichen-6d-doppelt
+    - id: gefahrenzeichen_6d_doppelt
       prompt: "Welches Zeichen siehst du?"
       media:
         image: "https://raw.githubusercontent.com/svengraziani/flippi-catalog/refs/heads/main/verkehrszeichen/Gefahrenzeichen_6d_doppelt.svg"
@@ -530,7 +530,7 @@ catalog:
       explanation: "Richtig ist Option A. Quelle: StVO – Zeichen: Gefahrenzeichen 6d doppelt."
       category: "Gefahrenzeichen (§50)"
       difficulty: medium
-    - id: gefahrenzeichen-6d-doppelt-tafel
+    - id: gefahrenzeichen_6d_doppelt_tafel
       prompt: "Welches Zeichen siehst du?"
       media:
         image: "https://raw.githubusercontent.com/svengraziani/flippi-catalog/refs/heads/main/verkehrszeichen/Gefahrenzeichen_6d_doppelt_Tafel.svg"
@@ -544,7 +544,7 @@ catalog:
       explanation: "Richtig ist Option A. Quelle: StVO – Zeichen: Gefahrenzeichen 6d doppelt Tafel."
       category: "Gefahrenzeichen (§50)"
       difficulty: medium
-    - id: gefahrenzeichen-6d-doppelt-liegend
+    - id: gefahrenzeichen_6d_doppelt_liegend
       prompt: "Welches Zeichen siehst du?"
       media:
         image: "https://raw.githubusercontent.com/svengraziani/flippi-catalog/refs/heads/main/verkehrszeichen/Gefahrenzeichen_6d_doppelt_liegend.svg"
@@ -558,7 +558,7 @@ catalog:
       explanation: "Richtig ist Option A. Quelle: StVO – Zeichen: Gefahrenzeichen 6d doppelt liegend."
       category: "Gefahrenzeichen (§50)"
       difficulty: medium
-    - id: gefahrenzeichen-6d-liegend
+    - id: gefahrenzeichen_6d_liegend
       prompt: "Welches Zeichen siehst du?"
       media:
         image: "https://raw.githubusercontent.com/svengraziani/flippi-catalog/refs/heads/main/verkehrszeichen/Gefahrenzeichen_6d_liegend.svg"
@@ -572,35 +572,35 @@ catalog:
       explanation: "Richtig ist Option A. Quelle: StVO – Zeichen: Gefahrenzeichen 6d liegend."
       category: "Gefahrenzeichen (§50)"
       difficulty: medium
-    - id: gefahrenzeichen-7-2010
+    - id: gefahrenzeichen_7
       prompt: "Welches Zeichen siehst du?"
       media:
-        image: "https://raw.githubusercontent.com/svengraziani/flippi-catalog/refs/heads/main/verkehrszeichen/Gefahrenzeichen_7_%282010%29.svg"
-        alt: "Gefahrenzeichen 7 (2010)"
+        image: "https://raw.githubusercontent.com/svengraziani/flippi-catalog/refs/heads/main/verkehrszeichen/Gefahrenzeichen_7.svg"
+        alt: "Gefahrenzeichen 7"
       option_a:
-        label: "Gefahrenzeichen 7 (2010)"
+        label: "Gefahrenzeichen 7"
         correct: true
       option_b:
         label: "Anderes Verkehrszeichen"
         correct: false
-      explanation: "Richtig ist Option A. Quelle: StVO – Zeichen: Gefahrenzeichen 7 (2010)."
+      explanation: "Richtig ist Option A. Quelle: StVO – Zeichen: Gefahrenzeichen 7."
       category: "Gefahrenzeichen (§50)"
       difficulty: medium
-    - id: gefahrenzeichen-7a-2010
+    - id: gefahrenzeichen_7a
       prompt: "Welches Zeichen siehst du?"
       media:
-        image: "https://raw.githubusercontent.com/svengraziani/flippi-catalog/refs/heads/main/verkehrszeichen/Gefahrenzeichen_7a_%282010%29.svg"
-        alt: "Gefahrenzeichen 7a (2010)"
+        image: "https://raw.githubusercontent.com/svengraziani/flippi-catalog/refs/heads/main/verkehrszeichen/Gefahrenzeichen_7a.svg"
+        alt: "Gefahrenzeichen 7a"
       option_a:
-        label: "Gefahrenzeichen 7a (2010)"
+        label: "Gefahrenzeichen 7a"
         correct: true
       option_b:
         label: "Anderes Verkehrszeichen"
         correct: false
-      explanation: "Richtig ist Option A. Quelle: StVO – Zeichen: Gefahrenzeichen 7a (2010)."
+      explanation: "Richtig ist Option A. Quelle: StVO – Zeichen: Gefahrenzeichen 7a."
       category: "Gefahrenzeichen (§50)"
       difficulty: medium
-    - id: gefahrenzeichen-8a
+    - id: gefahrenzeichen_8a
       prompt: "Welches Zeichen siehst du?"
       media:
         image: "https://raw.githubusercontent.com/svengraziani/flippi-catalog/refs/heads/main/verkehrszeichen/Gefahrenzeichen_8a.svg"
@@ -614,7 +614,7 @@ catalog:
       explanation: "Richtig ist Option A. Quelle: StVO – Zeichen: Gefahrenzeichen 8a."
       category: "Gefahrenzeichen (§50)"
       difficulty: medium
-    - id: gefahrenzeichen-8b
+    - id: gefahrenzeichen_8b
       prompt: "Welches Zeichen siehst du?"
       media:
         image: "https://raw.githubusercontent.com/svengraziani/flippi-catalog/refs/heads/main/verkehrszeichen/Gefahrenzeichen_8b.svg"
@@ -628,7 +628,7 @@ catalog:
       explanation: "Richtig ist Option A. Quelle: StVO – Zeichen: Gefahrenzeichen 8b."
       category: "Gefahrenzeichen (§50)"
       difficulty: medium
-    - id: gefahrenzeichen-8c
+    - id: gefahrenzeichen_8c
       prompt: "Welches Zeichen siehst du?"
       media:
         image: "https://raw.githubusercontent.com/svengraziani/flippi-catalog/refs/heads/main/verkehrszeichen/Gefahrenzeichen_8c.svg"
@@ -642,7 +642,7 @@ catalog:
       explanation: "Richtig ist Option A. Quelle: StVO – Zeichen: Gefahrenzeichen 8c."
       category: "Gefahrenzeichen (§50)"
       difficulty: medium
-    - id: gefahrenzeichen-9
+    - id: gefahrenzeichen_9
       prompt: "Welches Zeichen siehst du?"
       media:
         image: "https://raw.githubusercontent.com/svengraziani/flippi-catalog/refs/heads/main/verkehrszeichen/Gefahrenzeichen_9.svg"
@@ -656,63 +656,35 @@ catalog:
       explanation: "Richtig ist Option A. Quelle: StVO – Zeichen: Gefahrenzeichen 9."
       category: "Gefahrenzeichen (§50)"
       difficulty: medium
-    - id: hinweiszeichen-10-links-2010
+    - id: hinweiszeichen_10_links
       prompt: "Welches Zeichen siehst du?"
       media:
-        image: "https://raw.githubusercontent.com/svengraziani/flippi-catalog/refs/heads/main/verkehrszeichen/Hinweiszeichen_10_links_%282010%29.svg"
-        alt: "Hinweiszeichen 10 links (2010)"
+        image: "https://raw.githubusercontent.com/svengraziani/flippi-catalog/refs/heads/main/verkehrszeichen/Hinweiszeichen_10_links.svg"
+        alt: "Hinweiszeichen 10 links"
       option_a:
-        label: "Hinweiszeichen 10 links (2010)"
+        label: "Hinweiszeichen 10 links"
         correct: true
       option_b:
         label: "Anderes Verkehrszeichen"
         correct: false
-      explanation: "Richtig ist Option A. Quelle: StVO – Zeichen: Hinweiszeichen 10 links (2010)."
+      explanation: "Richtig ist Option A. Quelle: StVO – Zeichen: Hinweiszeichen 10 links."
       category: "Hinweiszeichen"
       difficulty: medium
-    - id: hinweiszeichen-10-links-old
+    - id: hinweiszeichen_10_rechts
       prompt: "Welches Zeichen siehst du?"
       media:
-        image: "https://raw.githubusercontent.com/svengraziani/flippi-catalog/refs/heads/main/verkehrszeichen/Hinweiszeichen_10_links_%28old%29.svg"
-        alt: "Hinweiszeichen 10 links (old)"
+        image: "https://raw.githubusercontent.com/svengraziani/flippi-catalog/refs/heads/main/verkehrszeichen/Hinweiszeichen_10_rechts.svg"
+        alt: "Hinweiszeichen 10 rechts"
       option_a:
-        label: "Hinweiszeichen 10 links (old)"
+        label: "Hinweiszeichen 10 rechts"
         correct: true
       option_b:
         label: "Anderes Verkehrszeichen"
         correct: false
-      explanation: "Richtig ist Option A. Quelle: StVO – Zeichen: Hinweiszeichen 10 links (old)."
+      explanation: "Richtig ist Option A. Quelle: StVO – Zeichen: Hinweiszeichen 10 rechts."
       category: "Hinweiszeichen"
       difficulty: medium
-    - id: hinweiszeichen-10-rechts-2010
-      prompt: "Welches Zeichen siehst du?"
-      media:
-        image: "https://raw.githubusercontent.com/svengraziani/flippi-catalog/refs/heads/main/verkehrszeichen/Hinweiszeichen_10_rechts_%282010%29.svg"
-        alt: "Hinweiszeichen 10 rechts (2010)"
-      option_a:
-        label: "Hinweiszeichen 10 rechts (2010)"
-        correct: true
-      option_b:
-        label: "Anderes Verkehrszeichen"
-        correct: false
-      explanation: "Richtig ist Option A. Quelle: StVO – Zeichen: Hinweiszeichen 10 rechts (2010)."
-      category: "Hinweiszeichen"
-      difficulty: medium
-    - id: hinweiszeichen-10-rechts-old
-      prompt: "Welches Zeichen siehst du?"
-      media:
-        image: "https://raw.githubusercontent.com/svengraziani/flippi-catalog/refs/heads/main/verkehrszeichen/Hinweiszeichen_10_rechts_%28old%29.svg"
-        alt: "Hinweiszeichen 10 rechts (old)"
-      option_a:
-        label: "Hinweiszeichen 10 rechts (old)"
-        correct: true
-      option_b:
-        label: "Anderes Verkehrszeichen"
-        correct: false
-      explanation: "Richtig ist Option A. Quelle: StVO – Zeichen: Hinweiszeichen 10 rechts (old)."
-      category: "Hinweiszeichen"
-      difficulty: medium
-    - id: hinweiszeichen-10a
+    - id: hinweiszeichen_10a
       prompt: "Welches Zeichen siehst du?"
       media:
         image: "https://raw.githubusercontent.com/svengraziani/flippi-catalog/refs/heads/main/verkehrszeichen/Hinweiszeichen_10a.svg"
@@ -726,21 +698,21 @@ catalog:
       explanation: "Richtig ist Option A. Quelle: StVO – Zeichen: Hinweiszeichen 10a."
       category: "Hinweiszeichen"
       difficulty: medium
-    - id: hinweiszeichen-11-2010
+    - id: hinweiszeichen_11
       prompt: "Welches Zeichen siehst du?"
       media:
-        image: "https://raw.githubusercontent.com/svengraziani/flippi-catalog/refs/heads/main/verkehrszeichen/Hinweiszeichen_11_%282010%29.svg"
-        alt: "Hinweiszeichen 11 (2010)"
+        image: "https://raw.githubusercontent.com/svengraziani/flippi-catalog/refs/heads/main/verkehrszeichen/Hinweiszeichen_11.svg"
+        alt: "Hinweiszeichen 11"
       option_a:
-        label: "Hinweiszeichen 11 (2010)"
+        label: "Hinweiszeichen 11"
         correct: true
       option_b:
         label: "Anderes Verkehrszeichen"
         correct: false
-      explanation: "Richtig ist Option A. Quelle: StVO – Zeichen: Hinweiszeichen 11 (2010)."
+      explanation: "Richtig ist Option A. Quelle: StVO – Zeichen: Hinweiszeichen 11."
       category: "Hinweiszeichen"
       difficulty: medium
-    - id: hinweiszeichen-12
+    - id: hinweiszeichen_12
       prompt: "Welches Zeichen siehst du?"
       media:
         image: "https://raw.githubusercontent.com/svengraziani/flippi-catalog/refs/heads/main/verkehrszeichen/Hinweiszeichen_12.svg"
@@ -754,49 +726,35 @@ catalog:
       explanation: "Richtig ist Option A. Quelle: StVO – Zeichen: Hinweiszeichen 12."
       category: "Hinweiszeichen"
       difficulty: medium
-    - id: hinweiszeichen-13a-gross-2010
+    - id: hinweiszeichen_13a_groß
       prompt: "Welches Zeichen siehst du?"
       media:
-        image: "https://raw.githubusercontent.com/svengraziani/flippi-catalog/refs/heads/main/verkehrszeichen/Hinweiszeichen_13a_gro%C3%9F_%282010%29.svg"
-        alt: "Hinweiszeichen 13a groß (2010)"
+        image: "https://raw.githubusercontent.com/svengraziani/flippi-catalog/refs/heads/main/verkehrszeichen/Hinweiszeichen_13a_groß.svg"
+        alt: "Hinweiszeichen 13a groß"
       option_a:
-        label: "Hinweiszeichen 13a groß (2010)"
+        label: "Hinweiszeichen 13a groß"
         correct: true
       option_b:
         label: "Anderes Verkehrszeichen"
         correct: false
-      explanation: "Richtig ist Option A. Quelle: StVO – Zeichen: Hinweiszeichen 13a groß (2010)."
+      explanation: "Richtig ist Option A. Quelle: StVO – Zeichen: Hinweiszeichen 13a groß."
       category: "Hinweiszeichen"
       difficulty: medium
-    - id: hinweiszeichen-13a-klein-2010
+    - id: hinweiszeichen_13a_klein
       prompt: "Welches Zeichen siehst du?"
       media:
-        image: "https://raw.githubusercontent.com/svengraziani/flippi-catalog/refs/heads/main/verkehrszeichen/Hinweiszeichen_13a_klein_%282010%29.svg"
-        alt: "Hinweiszeichen 13a klein (2010)"
+        image: "https://raw.githubusercontent.com/svengraziani/flippi-catalog/refs/heads/main/verkehrszeichen/Hinweiszeichen_13a_klein.svg"
+        alt: "Hinweiszeichen 13a klein"
       option_a:
-        label: "Hinweiszeichen 13a klein (2010)"
+        label: "Hinweiszeichen 13a klein"
         correct: true
       option_b:
         label: "Anderes Verkehrszeichen"
         correct: false
-      explanation: "Richtig ist Option A. Quelle: StVO – Zeichen: Hinweiszeichen 13a klein (2010)."
+      explanation: "Richtig ist Option A. Quelle: StVO – Zeichen: Hinweiszeichen 13a klein."
       category: "Hinweiszeichen"
       difficulty: medium
-    - id: hinweiszeichen-13b-mit-nr.-geradeaus-2010
-      prompt: "Welches Zeichen siehst du?"
-      media:
-        image: "https://raw.githubusercontent.com/svengraziani/flippi-catalog/refs/heads/main/verkehrszeichen/Hinweiszeichen_13b_mit_Nr._geradeaus_%282010%29.svg"
-        alt: "Hinweiszeichen 13b mit Nr. geradeaus (2010)"
-      option_a:
-        label: "Hinweiszeichen 13b mit Nr. geradeaus (2010)"
-        correct: true
-      option_b:
-        label: "Anderes Verkehrszeichen"
-        correct: false
-      explanation: "Richtig ist Option A. Quelle: StVO – Zeichen: Hinweiszeichen 13b mit Nr. geradeaus (2010)."
-      category: "Hinweiszeichen"
-      difficulty: medium
-    - id: hinweiszeichen-13b-mit-nr.-rechts
+    - id: hinweiszeichen_13b_mit_nr._rechts
       prompt: "Welches Zeichen siehst du?"
       media:
         image: "https://raw.githubusercontent.com/svengraziani/flippi-catalog/refs/heads/main/verkehrszeichen/Hinweiszeichen_13b_mit_Nr._rechts.svg"
@@ -810,77 +768,77 @@ catalog:
       explanation: "Richtig ist Option A. Quelle: StVO – Zeichen: Hinweiszeichen 13b mit Nr. rechts."
       category: "Hinweiszeichen"
       difficulty: medium
-    - id: hinweiszeichen-13b-mit-nr.-rechts-2010
+    - id: hinweiszeichen_13b_mit_geradeaus
       prompt: "Welches Zeichen siehst du?"
       media:
-        image: "https://raw.githubusercontent.com/svengraziani/flippi-catalog/refs/heads/main/verkehrszeichen/Hinweiszeichen_13b_mit_Nr._rechts_%282010%29.svg"
-        alt: "Hinweiszeichen 13b mit Nr. rechts (2010)"
+        image: "https://raw.githubusercontent.com/svengraziani/flippi-catalog/refs/heads/main/verkehrszeichen/Hinweiszeichen_13b_mit_geradeaus.svg"
+        alt: "Hinweiszeichen 13b mit geradeaus"
       option_a:
-        label: "Hinweiszeichen 13b mit Nr. rechts (2010)"
+        label: "Hinweiszeichen 13b mit geradeaus"
         correct: true
       option_b:
         label: "Anderes Verkehrszeichen"
         correct: false
-      explanation: "Richtig ist Option A. Quelle: StVO – Zeichen: Hinweiszeichen 13b mit Nr. rechts (2010)."
+      explanation: "Richtig ist Option A. Quelle: StVO – Zeichen: Hinweiszeichen 13b mit geradeaus."
       category: "Hinweiszeichen"
       difficulty: medium
-    - id: hinweiszeichen-13b-ohne-nr.-geradeaus-2010
+    - id: hinweiszeichen_13b_ohne_nr_geradeaus
       prompt: "Welches Zeichen siehst du?"
       media:
-        image: "https://raw.githubusercontent.com/svengraziani/flippi-catalog/refs/heads/main/verkehrszeichen/Hinweiszeichen_13b_ohne_Nr._geradeaus_%282010%29.svg"
-        alt: "Hinweiszeichen 13b ohne Nr. geradeaus (2010)"
+        image: "https://raw.githubusercontent.com/svengraziani/flippi-catalog/refs/heads/main/verkehrszeichen/Hinweiszeichen_13b_ohne_nr_geradeaus.svg"
+        alt: "Hinweiszeichen 13b ohne nr geradeaus"
       option_a:
-        label: "Hinweiszeichen 13b ohne Nr. geradeaus (2010)"
+        label: "Hinweiszeichen 13b ohne nr geradeaus"
         correct: true
       option_b:
         label: "Anderes Verkehrszeichen"
         correct: false
-      explanation: "Richtig ist Option A. Quelle: StVO – Zeichen: Hinweiszeichen 13b ohne Nr. geradeaus (2010)."
+      explanation: "Richtig ist Option A. Quelle: StVO – Zeichen: Hinweiszeichen 13b ohne nr geradeaus."
       category: "Hinweiszeichen"
       difficulty: medium
-    - id: hinweiszeichen-13c-links-2010
+    - id: hinweiszeichen_13c_links
       prompt: "Welches Zeichen siehst du?"
       media:
-        image: "https://raw.githubusercontent.com/svengraziani/flippi-catalog/refs/heads/main/verkehrszeichen/Hinweiszeichen_13c_links_%282010%29.svg"
-        alt: "Hinweiszeichen 13c links (2010)"
+        image: "https://raw.githubusercontent.com/svengraziani/flippi-catalog/refs/heads/main/verkehrszeichen/Hinweiszeichen_13c_links.svg"
+        alt: "Hinweiszeichen 13c links"
       option_a:
-        label: "Hinweiszeichen 13c links (2010)"
+        label: "Hinweiszeichen 13c links"
         correct: true
       option_b:
         label: "Anderes Verkehrszeichen"
         correct: false
-      explanation: "Richtig ist Option A. Quelle: StVO – Zeichen: Hinweiszeichen 13c links (2010)."
+      explanation: "Richtig ist Option A. Quelle: StVO – Zeichen: Hinweiszeichen 13c links."
       category: "Hinweiszeichen"
       difficulty: medium
-    - id: hinweiszeichen-13d-links-2010
+    - id: hinweiszeichen_13d_links
       prompt: "Welches Zeichen siehst du?"
       media:
-        image: "https://raw.githubusercontent.com/svengraziani/flippi-catalog/refs/heads/main/verkehrszeichen/Hinweiszeichen_13d_links_%282010%29.svg"
-        alt: "Hinweiszeichen 13d links (2010)"
+        image: "https://raw.githubusercontent.com/svengraziani/flippi-catalog/refs/heads/main/verkehrszeichen/Hinweiszeichen_13d_links.svg"
+        alt: "Hinweiszeichen 13d links"
       option_a:
-        label: "Hinweiszeichen 13d links (2010)"
+        label: "Hinweiszeichen 13d links"
         correct: true
       option_b:
         label: "Anderes Verkehrszeichen"
         correct: false
-      explanation: "Richtig ist Option A. Quelle: StVO – Zeichen: Hinweiszeichen 13d links (2010)."
+      explanation: "Richtig ist Option A. Quelle: StVO – Zeichen: Hinweiszeichen 13d links."
       category: "Hinweiszeichen"
       difficulty: medium
-    - id: hinweiszeichen-14a-2010
+    - id: hinweiszeichen_14a
       prompt: "Welches Zeichen siehst du?"
       media:
-        image: "https://raw.githubusercontent.com/svengraziani/flippi-catalog/refs/heads/main/verkehrszeichen/Hinweiszeichen_14a_%282010%29.svg"
-        alt: "Hinweiszeichen 14a (2010)"
+        image: "https://raw.githubusercontent.com/svengraziani/flippi-catalog/refs/heads/main/verkehrszeichen/Hinweiszeichen_14a.svg"
+        alt: "Hinweiszeichen 14a"
       option_a:
-        label: "Hinweiszeichen 14a (2010)"
+        label: "Hinweiszeichen 14a"
         correct: true
       option_b:
         label: "Anderes Verkehrszeichen"
         correct: false
-      explanation: "Richtig ist Option A. Quelle: StVO – Zeichen: Hinweiszeichen 14a (2010)."
+      explanation: "Richtig ist Option A. Quelle: StVO – Zeichen: Hinweiszeichen 14a."
       category: "Hinweiszeichen"
       difficulty: medium
-    - id: hinweiszeichen-14b-rechts
+    - id: hinweiszeichen_14b_rechts
       prompt: "Welches Zeichen siehst du?"
       media:
         image: "https://raw.githubusercontent.com/svengraziani/flippi-catalog/refs/heads/main/verkehrszeichen/Hinweiszeichen_14b_rechts.svg"
@@ -894,35 +852,21 @@ catalog:
       explanation: "Richtig ist Option A. Quelle: StVO – Zeichen: Hinweiszeichen 14b rechts."
       category: "Hinweiszeichen"
       difficulty: medium
-    - id: hinweiszeichen-14b-rechts-2010
+    - id: hinweiszeichen_14b_schraeg_rechts
       prompt: "Welches Zeichen siehst du?"
       media:
-        image: "https://raw.githubusercontent.com/svengraziani/flippi-catalog/refs/heads/main/verkehrszeichen/Hinweiszeichen_14b_rechts_%282010%29.svg"
-        alt: "Hinweiszeichen 14b rechts (2010)"
+        image: "https://raw.githubusercontent.com/svengraziani/flippi-catalog/refs/heads/main/verkehrszeichen/Hinweiszeichen_14b_schraeg_rechts.svg"
+        alt: "Hinweiszeichen 14b schraeg rechts"
       option_a:
-        label: "Hinweiszeichen 14b rechts (2010)"
+        label: "Hinweiszeichen 14b schraeg rechts"
         correct: true
       option_b:
         label: "Anderes Verkehrszeichen"
         correct: false
-      explanation: "Richtig ist Option A. Quelle: StVO – Zeichen: Hinweiszeichen 14b rechts (2010)."
+      explanation: "Richtig ist Option A. Quelle: StVO – Zeichen: Hinweiszeichen 14b schraeg rechts."
       category: "Hinweiszeichen"
       difficulty: medium
-    - id: hinweiszeichen-14b-schraeg-rechts-2010
-      prompt: "Welches Zeichen siehst du?"
-      media:
-        image: "https://raw.githubusercontent.com/svengraziani/flippi-catalog/refs/heads/main/verkehrszeichen/Hinweiszeichen_14b_schr%C3%A4g_rechts_%282010%29.svg"
-        alt: "Hinweiszeichen 14b schräg rechts (2010)"
-      option_a:
-        label: "Hinweiszeichen 14b schräg rechts (2010)"
-        correct: true
-      option_b:
-        label: "Anderes Verkehrszeichen"
-        correct: false
-      explanation: "Richtig ist Option A. Quelle: StVO – Zeichen: Hinweiszeichen 14b schräg rechts (2010)."
-      category: "Hinweiszeichen"
-      difficulty: medium
-    - id: hinweiszeichen-15a-a
+    - id: hinweiszeichen_15a-a
       prompt: "Welches Zeichen siehst du?"
       media:
         image: "https://raw.githubusercontent.com/svengraziani/flippi-catalog/refs/heads/main/verkehrszeichen/Hinweiszeichen_15a-a.svg"
@@ -936,7 +880,7 @@ catalog:
       explanation: "Richtig ist Option A. Quelle: StVO – Zeichen: Hinweiszeichen 15a-a."
       category: "Hinweiszeichen"
       difficulty: medium
-    - id: hinweiszeichen-15a-b
+    - id: hinweiszeichen_15a-b
       prompt: "Welches Zeichen siehst du?"
       media:
         image: "https://raw.githubusercontent.com/svengraziani/flippi-catalog/refs/heads/main/verkehrszeichen/Hinweiszeichen_15a-b.svg"
@@ -950,7 +894,7 @@ catalog:
       explanation: "Richtig ist Option A. Quelle: StVO – Zeichen: Hinweiszeichen 15a-b."
       category: "Hinweiszeichen"
       difficulty: medium
-    - id: hinweiszeichen-15a-c
+    - id: hinweiszeichen_15a-c
       prompt: "Welches Zeichen siehst du?"
       media:
         image: "https://raw.githubusercontent.com/svengraziani/flippi-catalog/refs/heads/main/verkehrszeichen/Hinweiszeichen_15a-c.svg"
@@ -964,7 +908,7 @@ catalog:
       explanation: "Richtig ist Option A. Quelle: StVO – Zeichen: Hinweiszeichen 15a-c."
       category: "Hinweiszeichen"
       difficulty: medium
-    - id: hinweiszeichen-15a-d
+    - id: hinweiszeichen_15a-d
       prompt: "Welches Zeichen siehst du?"
       media:
         image: "https://raw.githubusercontent.com/svengraziani/flippi-catalog/refs/heads/main/verkehrszeichen/Hinweiszeichen_15a-d.svg"
@@ -978,7 +922,7 @@ catalog:
       explanation: "Richtig ist Option A. Quelle: StVO – Zeichen: Hinweiszeichen 15a-d."
       category: "Hinweiszeichen"
       difficulty: medium
-    - id: hinweiszeichen-15b-a
+    - id: hinweiszeichen_15b-a
       prompt: "Welches Zeichen siehst du?"
       media:
         image: "https://raw.githubusercontent.com/svengraziani/flippi-catalog/refs/heads/main/verkehrszeichen/Hinweiszeichen_15b-a.svg"
@@ -992,7 +936,7 @@ catalog:
       explanation: "Richtig ist Option A. Quelle: StVO – Zeichen: Hinweiszeichen 15b-a."
       category: "Hinweiszeichen"
       difficulty: medium
-    - id: hinweiszeichen-15b-b-hoch
+    - id: hinweiszeichen_15b-b_hoch
       prompt: "Welches Zeichen siehst du?"
       media:
         image: "https://raw.githubusercontent.com/svengraziani/flippi-catalog/refs/heads/main/verkehrszeichen/Hinweiszeichen_15b-b_hoch.svg"
@@ -1006,7 +950,7 @@ catalog:
       explanation: "Richtig ist Option A. Quelle: StVO – Zeichen: Hinweiszeichen 15b-b hoch."
       category: "Hinweiszeichen"
       difficulty: medium
-    - id: hinweiszeichen-15b-b-quer
+    - id: hinweiszeichen_15b-b_quer
       prompt: "Welches Zeichen siehst du?"
       media:
         image: "https://raw.githubusercontent.com/svengraziani/flippi-catalog/refs/heads/main/verkehrszeichen/Hinweiszeichen_15b-b_quer.svg"
@@ -1020,7 +964,7 @@ catalog:
       explanation: "Richtig ist Option A. Quelle: StVO – Zeichen: Hinweiszeichen 15b-b quer."
       category: "Hinweiszeichen"
       difficulty: medium
-    - id: hinweiszeichen-15c
+    - id: hinweiszeichen_15c
       prompt: "Welches Zeichen siehst du?"
       media:
         image: "https://raw.githubusercontent.com/svengraziani/flippi-catalog/refs/heads/main/verkehrszeichen/Hinweiszeichen_15c.svg"
@@ -1034,7 +978,7 @@ catalog:
       explanation: "Richtig ist Option A. Quelle: StVO – Zeichen: Hinweiszeichen 15c."
       category: "Hinweiszeichen"
       difficulty: medium
-    - id: hinweiszeichen-16a
+    - id: hinweiszeichen_16a
       prompt: "Welches Zeichen siehst du?"
       media:
         image: "https://raw.githubusercontent.com/svengraziani/flippi-catalog/refs/heads/main/verkehrszeichen/Hinweiszeichen_16a.svg"
@@ -1048,7 +992,7 @@ catalog:
       explanation: "Richtig ist Option A. Quelle: StVO – Zeichen: Hinweiszeichen 16a."
       category: "Hinweiszeichen"
       difficulty: medium
-    - id: hinweiszeichen-16b-geradeaus
+    - id: hinweiszeichen_16b_geradeaus
       prompt: "Welches Zeichen siehst du?"
       media:
         image: "https://raw.githubusercontent.com/svengraziani/flippi-catalog/refs/heads/main/verkehrszeichen/Hinweiszeichen_16b_geradeaus.svg"
@@ -1062,7 +1006,7 @@ catalog:
       explanation: "Richtig ist Option A. Quelle: StVO – Zeichen: Hinweiszeichen 16b geradeaus."
       category: "Hinweiszeichen"
       difficulty: medium
-    - id: hinweiszeichen-16b-rechts
+    - id: hinweiszeichen_16b_rechts
       prompt: "Welches Zeichen siehst du?"
       media:
         image: "https://raw.githubusercontent.com/svengraziani/flippi-catalog/refs/heads/main/verkehrszeichen/Hinweiszeichen_16b_rechts.svg"
@@ -1076,7 +1020,7 @@ catalog:
       explanation: "Richtig ist Option A. Quelle: StVO – Zeichen: Hinweiszeichen 16b rechts."
       category: "Hinweiszeichen"
       difficulty: medium
-    - id: hinweiszeichen-16b-rechts-lkw
+    - id: hinweiszeichen_16b_rechts_lkw
       prompt: "Welches Zeichen siehst du?"
       media:
         image: "https://raw.githubusercontent.com/svengraziani/flippi-catalog/refs/heads/main/verkehrszeichen/Hinweiszeichen_16b_rechts_LKW.svg"
@@ -1090,7 +1034,7 @@ catalog:
       explanation: "Richtig ist Option A. Quelle: StVO – Zeichen: Hinweiszeichen 16b rechts LKW."
       category: "Hinweiszeichen"
       difficulty: medium
-    - id: hinweiszeichen-16c-a
+    - id: hinweiszeichen_16c-a
       prompt: "Welches Zeichen siehst du?"
       media:
         image: "https://raw.githubusercontent.com/svengraziani/flippi-catalog/refs/heads/main/verkehrszeichen/Hinweiszeichen_16c-a.svg"
@@ -1104,7 +1048,7 @@ catalog:
       explanation: "Richtig ist Option A. Quelle: StVO – Zeichen: Hinweiszeichen 16c-a."
       category: "Hinweiszeichen"
       difficulty: medium
-    - id: hinweiszeichen-16c-b
+    - id: hinweiszeichen_16c-b
       prompt: "Welches Zeichen siehst du?"
       media:
         image: "https://raw.githubusercontent.com/svengraziani/flippi-catalog/refs/heads/main/verkehrszeichen/Hinweiszeichen_16c-b.svg"
@@ -1118,21 +1062,21 @@ catalog:
       explanation: "Richtig ist Option A. Quelle: StVO – Zeichen: Hinweiszeichen 16c-b."
       category: "Hinweiszeichen"
       difficulty: medium
-    - id: hinweiszeichen-17b-2010
+    - id: hinweiszeichen_17b
       prompt: "Welches Zeichen siehst du?"
       media:
-        image: "https://raw.githubusercontent.com/svengraziani/flippi-catalog/refs/heads/main/verkehrszeichen/Hinweiszeichen_17b_%282010%29.svg"
-        alt: "Hinweiszeichen 17b (2010)"
+        image: "https://raw.githubusercontent.com/svengraziani/flippi-catalog/refs/heads/main/verkehrszeichen/Hinweiszeichen_17b.svg"
+        alt: "Hinweiszeichen 17b"
       option_a:
-        label: "Hinweiszeichen 17b (2010)"
+        label: "Hinweiszeichen 17b"
         correct: true
       option_b:
         label: "Anderes Verkehrszeichen"
         correct: false
-      explanation: "Richtig ist Option A. Quelle: StVO – Zeichen: Hinweiszeichen 17b (2010)."
+      explanation: "Richtig ist Option A. Quelle: StVO – Zeichen: Hinweiszeichen 17b."
       category: "Hinweiszeichen"
       difficulty: medium
-    - id: hinweiszeichen-18
+    - id: hinweiszeichen_18
       prompt: "Welches Zeichen siehst du?"
       media:
         image: "https://raw.githubusercontent.com/svengraziani/flippi-catalog/refs/heads/main/verkehrszeichen/Hinweiszeichen_18.svg"
@@ -1146,7 +1090,7 @@ catalog:
       explanation: "Richtig ist Option A. Quelle: StVO – Zeichen: Hinweiszeichen 18."
       category: "Hinweiszeichen"
       difficulty: medium
-    - id: hinweiszeichen-19
+    - id: hinweiszeichen_19
       prompt: "Welches Zeichen siehst du?"
       media:
         image: "https://raw.githubusercontent.com/svengraziani/flippi-catalog/refs/heads/main/verkehrszeichen/Hinweiszeichen_19.svg"
@@ -1160,49 +1104,63 @@ catalog:
       explanation: "Richtig ist Option A. Quelle: StVO – Zeichen: Hinweiszeichen 19."
       category: "Hinweiszeichen"
       difficulty: medium
-    - id: hinweiszeichen-1a-2010
+    - id: hinweiszeichen_1a
       prompt: "Welches Zeichen siehst du?"
       media:
-        image: "https://raw.githubusercontent.com/svengraziani/flippi-catalog/refs/heads/main/verkehrszeichen/Hinweiszeichen_1a_%282010%29.svg"
-        alt: "Hinweiszeichen 1a (2010)"
+        image: "https://raw.githubusercontent.com/svengraziani/flippi-catalog/refs/heads/main/verkehrszeichen/Hinweiszeichen_1a.svg"
+        alt: "Hinweiszeichen 1a"
       option_a:
-        label: "Hinweiszeichen 1a (2010)"
+        label: "Hinweiszeichen 1a"
         correct: true
       option_b:
         label: "Anderes Verkehrszeichen"
         correct: false
-      explanation: "Richtig ist Option A. Quelle: StVO – Zeichen: Hinweiszeichen 1a (2010)."
+      explanation: "Richtig ist Option A. Quelle: StVO – Zeichen: Hinweiszeichen 1a."
       category: "Hinweiszeichen"
       difficulty: medium
-    - id: hinweiszeichen-1b-2010
+    - id: hinweiszeichen_1b
       prompt: "Welches Zeichen siehst du?"
       media:
-        image: "https://raw.githubusercontent.com/svengraziani/flippi-catalog/refs/heads/main/verkehrszeichen/Hinweiszeichen_1b_%282010%29.svg"
-        alt: "Hinweiszeichen 1b (2010)"
+        image: "https://raw.githubusercontent.com/svengraziani/flippi-catalog/refs/heads/main/verkehrszeichen/Hinweiszeichen_1b.svg"
+        alt: "Hinweiszeichen 1b"
       option_a:
-        label: "Hinweiszeichen 1b (2010)"
+        label: "Hinweiszeichen 1b"
         correct: true
       option_b:
         label: "Anderes Verkehrszeichen"
         correct: false
-      explanation: "Richtig ist Option A. Quelle: StVO – Zeichen: Hinweiszeichen 1b (2010)."
+      explanation: "Richtig ist Option A. Quelle: StVO – Zeichen: Hinweiszeichen 1b."
       category: "Hinweiszeichen"
       difficulty: medium
-    - id: hinweiszeichen-1c-2010
+    - id: hinweiszeichen_1c
       prompt: "Welches Zeichen siehst du?"
       media:
-        image: "https://raw.githubusercontent.com/svengraziani/flippi-catalog/refs/heads/main/verkehrszeichen/Hinweiszeichen_1c_%282010%29.svg"
-        alt: "Hinweiszeichen 1c (2010)"
+        image: "https://raw.githubusercontent.com/svengraziani/flippi-catalog/refs/heads/main/verkehrszeichen/Hinweiszeichen_1c.svg"
+        alt: "Hinweiszeichen 1c"
       option_a:
-        label: "Hinweiszeichen 1c (2010)"
+        label: "Hinweiszeichen 1c"
         correct: true
       option_b:
         label: "Anderes Verkehrszeichen"
         correct: false
-      explanation: "Richtig ist Option A. Quelle: StVO – Zeichen: Hinweiszeichen 1c (2010)."
+      explanation: "Richtig ist Option A. Quelle: StVO – Zeichen: Hinweiszeichen 1c."
       category: "Hinweiszeichen"
       difficulty: medium
-    - id: hinweiszeichen-20
+    - id: hinweiszeichen_2
+      prompt: "Welches Zeichen siehst du?"
+      media:
+        image: "https://raw.githubusercontent.com/svengraziani/flippi-catalog/refs/heads/main/verkehrszeichen/Hinweiszeichen_2.svg"
+        alt: "Hinweiszeichen 2"
+      option_a:
+        label: "Hinweiszeichen 2"
+        correct: true
+      option_b:
+        label: "Anderes Verkehrszeichen"
+        correct: false
+      explanation: "Richtig ist Option A. Quelle: StVO – Zeichen: Hinweiszeichen 2."
+      category: "Hinweiszeichen"
+      difficulty: medium
+    - id: hinweiszeichen_20
       prompt: "Welches Zeichen siehst du?"
       media:
         image: "https://raw.githubusercontent.com/svengraziani/flippi-catalog/refs/heads/main/verkehrszeichen/Hinweiszeichen_20.svg"
@@ -1216,7 +1174,7 @@ catalog:
       explanation: "Richtig ist Option A. Quelle: StVO – Zeichen: Hinweiszeichen 20."
       category: "Hinweiszeichen"
       difficulty: medium
-    - id: hinweiszeichen-21
+    - id: hinweiszeichen_21
       prompt: "Welches Zeichen siehst du?"
       media:
         image: "https://raw.githubusercontent.com/svengraziani/flippi-catalog/refs/heads/main/verkehrszeichen/Hinweiszeichen_21.svg"
@@ -1230,7 +1188,7 @@ catalog:
       explanation: "Richtig ist Option A. Quelle: StVO – Zeichen: Hinweiszeichen 21."
       category: "Hinweiszeichen"
       difficulty: medium
-    - id: hinweiszeichen-23
+    - id: hinweiszeichen_23
       prompt: "Welches Zeichen siehst du?"
       media:
         image: "https://raw.githubusercontent.com/svengraziani/flippi-catalog/refs/heads/main/verkehrszeichen/Hinweiszeichen_23.svg"
@@ -1244,7 +1202,7 @@ catalog:
       explanation: "Richtig ist Option A. Quelle: StVO – Zeichen: Hinweiszeichen 23."
       category: "Hinweiszeichen"
       difficulty: medium
-    - id: hinweiszeichen-23a-grrrg
+    - id: hinweiszeichen_23a_grrrg
       prompt: "Welches Zeichen siehst du?"
       media:
         image: "https://raw.githubusercontent.com/svengraziani/flippi-catalog/refs/heads/main/verkehrszeichen/Hinweiszeichen_23a_grrrg.svg"
@@ -1258,7 +1216,7 @@ catalog:
       explanation: "Richtig ist Option A. Quelle: StVO – Zeichen: Hinweiszeichen 23a grrrg."
       category: "Hinweiszeichen"
       difficulty: medium
-    - id: hinweiszeichen-23a-rllg
+    - id: hinweiszeichen_23a_rllg
       prompt: "Welches Zeichen siehst du?"
       media:
         image: "https://raw.githubusercontent.com/svengraziani/flippi-catalog/refs/heads/main/verkehrszeichen/Hinweiszeichen_23a_rllg.svg"
@@ -1272,35 +1230,35 @@ catalog:
       explanation: "Richtig ist Option A. Quelle: StVO – Zeichen: Hinweiszeichen 23a rllg."
       category: "Hinweiszeichen"
       difficulty: medium
-    - id: hinweiszeichen-23b-1+2-1
+    - id: hinweiszeichen_23b
       prompt: "Welches Zeichen siehst du?"
       media:
-        image: "https://raw.githubusercontent.com/svengraziani/flippi-catalog/refs/heads/main/verkehrszeichen/Hinweiszeichen_23b_1%2B2-1.svg"
-        alt: "Hinweiszeichen 23b 1+2-1"
+        image: "https://raw.githubusercontent.com/svengraziani/flippi-catalog/refs/heads/main/verkehrszeichen/Hinweiszeichen_23b.svg"
+        alt: "Hinweiszeichen 23b"
       option_a:
-        label: "Hinweiszeichen 23b 1+2-1"
+        label: "Hinweiszeichen 23b"
         correct: true
       option_b:
         label: "Anderes Verkehrszeichen"
         correct: false
-      explanation: "Richtig ist Option A. Quelle: StVO – Zeichen: Hinweiszeichen 23b 1+2-1."
+      explanation: "Richtig ist Option A. Quelle: StVO – Zeichen: Hinweiszeichen 23b."
       category: "Hinweiszeichen"
       difficulty: medium
-    - id: hinweiszeichen-23b-1+2-in-...-m
+    - id: hinweiszeichen_23b_1_2-1
       prompt: "Welches Zeichen siehst du?"
       media:
-        image: "https://raw.githubusercontent.com/svengraziani/flippi-catalog/refs/heads/main/verkehrszeichen/Hinweiszeichen_23b_1%2B2_in_..._m.svg"
-        alt: "Hinweiszeichen 23b 1+2 in ... m"
+        image: "https://raw.githubusercontent.com/svengraziani/flippi-catalog/refs/heads/main/verkehrszeichen/Hinweiszeichen_23b_1_2-1.svg"
+        alt: "Hinweiszeichen 23b 1 2-1"
       option_a:
-        label: "Hinweiszeichen 23b 1+2 in ... m"
+        label: "Hinweiszeichen 23b 1 2-1"
         correct: true
       option_b:
         label: "Anderes Verkehrszeichen"
         correct: false
-      explanation: "Richtig ist Option A. Quelle: StVO – Zeichen: Hinweiszeichen 23b 1+2 in ... m."
+      explanation: "Richtig ist Option A. Quelle: StVO – Zeichen: Hinweiszeichen 23b 1 2-1."
       category: "Hinweiszeichen"
       difficulty: medium
-    - id: hinweiszeichen-23c
+    - id: hinweiszeichen_23c
       prompt: "Welches Zeichen siehst du?"
       media:
         image: "https://raw.githubusercontent.com/svengraziani/flippi-catalog/refs/heads/main/verkehrszeichen/Hinweiszeichen_23c.svg"
@@ -1314,7 +1272,7 @@ catalog:
       explanation: "Richtig ist Option A. Quelle: StVO – Zeichen: Hinweiszeichen 23c."
       category: "Hinweiszeichen"
       difficulty: medium
-    - id: hinweiszeichen-24
+    - id: hinweiszeichen_24
       prompt: "Welches Zeichen siehst du?"
       media:
         image: "https://raw.githubusercontent.com/svengraziani/flippi-catalog/refs/heads/main/verkehrszeichen/Hinweiszeichen_24.svg"
@@ -1328,7 +1286,7 @@ catalog:
       explanation: "Richtig ist Option A. Quelle: StVO – Zeichen: Hinweiszeichen 24."
       category: "Hinweiszeichen"
       difficulty: medium
-    - id: hinweiszeichen-25
+    - id: hinweiszeichen_25
       prompt: "Welches Zeichen siehst du?"
       media:
         image: "https://raw.githubusercontent.com/svengraziani/flippi-catalog/refs/heads/main/verkehrszeichen/Hinweiszeichen_25.svg"
@@ -1342,7 +1300,7 @@ catalog:
       explanation: "Richtig ist Option A. Quelle: StVO – Zeichen: Hinweiszeichen 25."
       category: "Hinweiszeichen"
       difficulty: medium
-    - id: hinweiszeichen-26
+    - id: hinweiszeichen_26
       prompt: "Welches Zeichen siehst du?"
       media:
         image: "https://raw.githubusercontent.com/svengraziani/flippi-catalog/refs/heads/main/verkehrszeichen/Hinweiszeichen_26.svg"
@@ -1356,7 +1314,7 @@ catalog:
       explanation: "Richtig ist Option A. Quelle: StVO – Zeichen: Hinweiszeichen 26."
       category: "Hinweiszeichen"
       difficulty: medium
-    - id: hinweiszeichen-26a
+    - id: hinweiszeichen_26a
       prompt: "Welches Zeichen siehst du?"
       media:
         image: "https://raw.githubusercontent.com/svengraziani/flippi-catalog/refs/heads/main/verkehrszeichen/Hinweiszeichen_26a.svg"
@@ -1370,7 +1328,7 @@ catalog:
       explanation: "Richtig ist Option A. Quelle: StVO – Zeichen: Hinweiszeichen 26a."
       category: "Hinweiszeichen"
       difficulty: medium
-    - id: hinweiszeichen-27
+    - id: hinweiszeichen_27
       prompt: "Welches Zeichen siehst du?"
       media:
         image: "https://raw.githubusercontent.com/svengraziani/flippi-catalog/refs/heads/main/verkehrszeichen/Hinweiszeichen_27.svg"
@@ -1384,7 +1342,7 @@ catalog:
       explanation: "Richtig ist Option A. Quelle: StVO – Zeichen: Hinweiszeichen 27."
       category: "Hinweiszeichen"
       difficulty: medium
-    - id: hinweiszeichen-28a
+    - id: hinweiszeichen_28a
       prompt: "Welches Zeichen siehst du?"
       media:
         image: "https://raw.githubusercontent.com/svengraziani/flippi-catalog/refs/heads/main/verkehrszeichen/Hinweiszeichen_28a.svg"
@@ -1398,7 +1356,7 @@ catalog:
       explanation: "Richtig ist Option A. Quelle: StVO – Zeichen: Hinweiszeichen 28a."
       category: "Hinweiszeichen"
       difficulty: medium
-    - id: hinweiszeichen-28b
+    - id: hinweiszeichen_28b
       prompt: "Welches Zeichen siehst du?"
       media:
         image: "https://raw.githubusercontent.com/svengraziani/flippi-catalog/refs/heads/main/verkehrszeichen/Hinweiszeichen_28b.svg"
@@ -1412,105 +1370,91 @@ catalog:
       explanation: "Richtig ist Option A. Quelle: StVO – Zeichen: Hinweiszeichen 28b."
       category: "Hinweiszeichen"
       difficulty: medium
-    - id: hinweiszeichen-2-2010
+    - id: hinweiszeichen_2a
       prompt: "Welches Zeichen siehst du?"
       media:
-        image: "https://raw.githubusercontent.com/svengraziani/flippi-catalog/refs/heads/main/verkehrszeichen/Hinweiszeichen_2_%282010%29.svg"
-        alt: "Hinweiszeichen 2 (2010)"
+        image: "https://raw.githubusercontent.com/svengraziani/flippi-catalog/refs/heads/main/verkehrszeichen/Hinweiszeichen_2a.svg"
+        alt: "Hinweiszeichen 2a"
       option_a:
-        label: "Hinweiszeichen 2 (2010)"
+        label: "Hinweiszeichen 2a"
         correct: true
       option_b:
         label: "Anderes Verkehrszeichen"
         correct: false
-      explanation: "Richtig ist Option A. Quelle: StVO – Zeichen: Hinweiszeichen 2 (2010)."
+      explanation: "Richtig ist Option A. Quelle: StVO – Zeichen: Hinweiszeichen 2a."
       category: "Hinweiszeichen"
       difficulty: medium
-    - id: hinweiszeichen-2a-2010
+    - id: hinweiszeichen_2b
       prompt: "Welches Zeichen siehst du?"
       media:
-        image: "https://raw.githubusercontent.com/svengraziani/flippi-catalog/refs/heads/main/verkehrszeichen/Hinweiszeichen_2a_%282010%29.svg"
-        alt: "Hinweiszeichen 2a (2010)"
+        image: "https://raw.githubusercontent.com/svengraziani/flippi-catalog/refs/heads/main/verkehrszeichen/Hinweiszeichen_2b.svg"
+        alt: "Hinweiszeichen 2b"
       option_a:
-        label: "Hinweiszeichen 2a (2010)"
+        label: "Hinweiszeichen 2b"
         correct: true
       option_b:
         label: "Anderes Verkehrszeichen"
         correct: false
-      explanation: "Richtig ist Option A. Quelle: StVO – Zeichen: Hinweiszeichen 2a (2010)."
+      explanation: "Richtig ist Option A. Quelle: StVO – Zeichen: Hinweiszeichen 2b."
       category: "Hinweiszeichen"
       difficulty: medium
-    - id: hinweiszeichen-2b-2010
+    - id: hinweiszeichen_2c-a
       prompt: "Welches Zeichen siehst du?"
       media:
-        image: "https://raw.githubusercontent.com/svengraziani/flippi-catalog/refs/heads/main/verkehrszeichen/Hinweiszeichen_2b_%282010%29.svg"
-        alt: "Hinweiszeichen 2b (2010)"
+        image: "https://raw.githubusercontent.com/svengraziani/flippi-catalog/refs/heads/main/verkehrszeichen/Hinweiszeichen_2c-a.svg"
+        alt: "Hinweiszeichen 2c-a"
       option_a:
-        label: "Hinweiszeichen 2b (2010)"
+        label: "Hinweiszeichen 2c-a"
         correct: true
       option_b:
         label: "Anderes Verkehrszeichen"
         correct: false
-      explanation: "Richtig ist Option A. Quelle: StVO – Zeichen: Hinweiszeichen 2b (2010)."
+      explanation: "Richtig ist Option A. Quelle: StVO – Zeichen: Hinweiszeichen 2c-a."
       category: "Hinweiszeichen"
       difficulty: medium
-    - id: hinweiszeichen-2c-a-2010
+    - id: hinweiszeichen_2c-b
       prompt: "Welches Zeichen siehst du?"
       media:
-        image: "https://raw.githubusercontent.com/svengraziani/flippi-catalog/refs/heads/main/verkehrszeichen/Hinweiszeichen_2c-a_%282010%29.svg"
-        alt: "Hinweiszeichen 2c-a (2010)"
+        image: "https://raw.githubusercontent.com/svengraziani/flippi-catalog/refs/heads/main/verkehrszeichen/Hinweiszeichen_2c-b.svg"
+        alt: "Hinweiszeichen 2c-b"
       option_a:
-        label: "Hinweiszeichen 2c-a (2010)"
+        label: "Hinweiszeichen 2c-b"
         correct: true
       option_b:
         label: "Anderes Verkehrszeichen"
         correct: false
-      explanation: "Richtig ist Option A. Quelle: StVO – Zeichen: Hinweiszeichen 2c-a (2010)."
+      explanation: "Richtig ist Option A. Quelle: StVO – Zeichen: Hinweiszeichen 2c-b."
       category: "Hinweiszeichen"
       difficulty: medium
-    - id: hinweiszeichen-2c-b-2010
+    - id: hinweiszeichen_3
       prompt: "Welches Zeichen siehst du?"
       media:
-        image: "https://raw.githubusercontent.com/svengraziani/flippi-catalog/refs/heads/main/verkehrszeichen/Hinweiszeichen_2c-b_%282010%29.svg"
-        alt: "Hinweiszeichen 2c-b (2010)"
+        image: "https://raw.githubusercontent.com/svengraziani/flippi-catalog/refs/heads/main/verkehrszeichen/Hinweiszeichen_3.svg"
+        alt: "Hinweiszeichen 3"
       option_a:
-        label: "Hinweiszeichen 2c-b (2010)"
+        label: "Hinweiszeichen 3"
         correct: true
       option_b:
         label: "Anderes Verkehrszeichen"
         correct: false
-      explanation: "Richtig ist Option A. Quelle: StVO – Zeichen: Hinweiszeichen 2c-b (2010)."
+      explanation: "Richtig ist Option A. Quelle: StVO – Zeichen: Hinweiszeichen 3."
       category: "Hinweiszeichen"
       difficulty: medium
-    - id: hinweiszeichen-3-2010
+    - id: hinweiszeichen_3a
       prompt: "Welches Zeichen siehst du?"
       media:
-        image: "https://raw.githubusercontent.com/svengraziani/flippi-catalog/refs/heads/main/verkehrszeichen/Hinweiszeichen_3_%282010%29.svg"
-        alt: "Hinweiszeichen 3 (2010)"
+        image: "https://raw.githubusercontent.com/svengraziani/flippi-catalog/refs/heads/main/verkehrszeichen/Hinweiszeichen_3a.svg"
+        alt: "Hinweiszeichen 3a"
       option_a:
-        label: "Hinweiszeichen 3 (2010)"
+        label: "Hinweiszeichen 3a"
         correct: true
       option_b:
         label: "Anderes Verkehrszeichen"
         correct: false
-      explanation: "Richtig ist Option A. Quelle: StVO – Zeichen: Hinweiszeichen 3 (2010)."
+      explanation: "Richtig ist Option A. Quelle: StVO – Zeichen: Hinweiszeichen 3a."
       category: "Hinweiszeichen"
       difficulty: medium
-    - id: hinweiszeichen-3a-2010
-      prompt: "Welches Zeichen siehst du?"
-      media:
-        image: "https://raw.githubusercontent.com/svengraziani/flippi-catalog/refs/heads/main/verkehrszeichen/Hinweiszeichen_3a_%282010%29.svg"
-        alt: "Hinweiszeichen 3a (2010)"
-      option_a:
-        label: "Hinweiszeichen 3a (2010)"
-        correct: true
-      option_b:
-        label: "Anderes Verkehrszeichen"
-        correct: false
-      explanation: "Richtig ist Option A. Quelle: StVO – Zeichen: Hinweiszeichen 3a (2010)."
-      category: "Hinweiszeichen"
-      difficulty: medium
-    - id: hinweiszeichen-4
+    - id: hinweiszeichen_4
       prompt: "Welches Zeichen siehst du?"
       media:
         image: "https://raw.githubusercontent.com/svengraziani/flippi-catalog/refs/heads/main/verkehrszeichen/Hinweiszeichen_4.svg"
@@ -1524,7 +1468,7 @@ catalog:
       explanation: "Richtig ist Option A. Quelle: StVO – Zeichen: Hinweiszeichen 4."
       category: "Hinweiszeichen"
       difficulty: medium
-    - id: hinweiszeichen-4a
+    - id: hinweiszeichen_4a
       prompt: "Welches Zeichen siehst du?"
       media:
         image: "https://raw.githubusercontent.com/svengraziani/flippi-catalog/refs/heads/main/verkehrszeichen/Hinweiszeichen_4a.svg"
@@ -1538,7 +1482,7 @@ catalog:
       explanation: "Richtig ist Option A. Quelle: StVO – Zeichen: Hinweiszeichen 4a."
       category: "Hinweiszeichen"
       difficulty: medium
-    - id: hinweiszeichen-5
+    - id: hinweiszeichen_5
       prompt: "Welches Zeichen siehst du?"
       media:
         image: "https://raw.githubusercontent.com/svengraziani/flippi-catalog/refs/heads/main/verkehrszeichen/Hinweiszeichen_5.svg"
@@ -1552,7 +1496,7 @@ catalog:
       explanation: "Richtig ist Option A. Quelle: StVO – Zeichen: Hinweiszeichen 5."
       category: "Hinweiszeichen"
       difficulty: medium
-    - id: hinweiszeichen-6
+    - id: hinweiszeichen_6
       prompt: "Welches Zeichen siehst du?"
       media:
         image: "https://raw.githubusercontent.com/svengraziani/flippi-catalog/refs/heads/main/verkehrszeichen/Hinweiszeichen_6.svg"
@@ -1566,7 +1510,7 @@ catalog:
       explanation: "Richtig ist Option A. Quelle: StVO – Zeichen: Hinweiszeichen 6."
       category: "Hinweiszeichen"
       difficulty: medium
-    - id: hinweiszeichen-6a
+    - id: hinweiszeichen_6a
       prompt: "Welches Zeichen siehst du?"
       media:
         image: "https://raw.githubusercontent.com/svengraziani/flippi-catalog/refs/heads/main/verkehrszeichen/Hinweiszeichen_6a.svg"
@@ -1580,7 +1524,7 @@ catalog:
       explanation: "Richtig ist Option A. Quelle: StVO – Zeichen: Hinweiszeichen 6a."
       category: "Hinweiszeichen"
       difficulty: medium
-    - id: hinweiszeichen-7
+    - id: hinweiszeichen_7
       prompt: "Welches Zeichen siehst du?"
       media:
         image: "https://raw.githubusercontent.com/svengraziani/flippi-catalog/refs/heads/main/verkehrszeichen/Hinweiszeichen_7.svg"
@@ -1594,7 +1538,7 @@ catalog:
       explanation: "Richtig ist Option A. Quelle: StVO – Zeichen: Hinweiszeichen 7."
       category: "Hinweiszeichen"
       difficulty: medium
-    - id: hinweiszeichen-7a
+    - id: hinweiszeichen_7a
       prompt: "Welches Zeichen siehst du?"
       media:
         image: "https://raw.githubusercontent.com/svengraziani/flippi-catalog/refs/heads/main/verkehrszeichen/Hinweiszeichen_7a.svg"
@@ -1608,7 +1552,7 @@ catalog:
       explanation: "Richtig ist Option A. Quelle: StVO – Zeichen: Hinweiszeichen 7a."
       category: "Hinweiszeichen"
       difficulty: medium
-    - id: hinweiszeichen-8a
+    - id: hinweiszeichen_8a
       prompt: "Welches Zeichen siehst du?"
       media:
         image: "https://raw.githubusercontent.com/svengraziani/flippi-catalog/refs/heads/main/verkehrszeichen/Hinweiszeichen_8a.svg"
@@ -1622,7 +1566,7 @@ catalog:
       explanation: "Richtig ist Option A. Quelle: StVO – Zeichen: Hinweiszeichen 8a."
       category: "Hinweiszeichen"
       difficulty: medium
-    - id: hinweiszeichen-8b
+    - id: hinweiszeichen_8b
       prompt: "Welches Zeichen siehst du?"
       media:
         image: "https://raw.githubusercontent.com/svengraziani/flippi-catalog/refs/heads/main/verkehrszeichen/Hinweiszeichen_8b.svg"
@@ -1636,7 +1580,7 @@ catalog:
       explanation: "Richtig ist Option A. Quelle: StVO – Zeichen: Hinweiszeichen 8b."
       category: "Hinweiszeichen"
       difficulty: medium
-    - id: hinweiszeichen-8c
+    - id: hinweiszeichen_8c
       prompt: "Welches Zeichen siehst du?"
       media:
         image: "https://raw.githubusercontent.com/svengraziani/flippi-catalog/refs/heads/main/verkehrszeichen/Hinweiszeichen_8c.svg"
@@ -1650,7 +1594,7 @@ catalog:
       explanation: "Richtig ist Option A. Quelle: StVO – Zeichen: Hinweiszeichen 8c."
       category: "Hinweiszeichen"
       difficulty: medium
-    - id: hinweiszeichen-8d
+    - id: hinweiszeichen_8d
       prompt: "Welches Zeichen siehst du?"
       media:
         image: "https://raw.githubusercontent.com/svengraziani/flippi-catalog/refs/heads/main/verkehrszeichen/Hinweiszeichen_8d.svg"
@@ -1664,35 +1608,35 @@ catalog:
       explanation: "Richtig ist Option A. Quelle: StVO – Zeichen: Hinweiszeichen 8d."
       category: "Hinweiszeichen"
       difficulty: medium
-    - id: hinweiszeichen-9a-2010
+    - id: hinweiszeichen_9a
       prompt: "Welches Zeichen siehst du?"
       media:
-        image: "https://raw.githubusercontent.com/svengraziani/flippi-catalog/refs/heads/main/verkehrszeichen/Hinweiszeichen_9a_%282010%29.svg"
-        alt: "Hinweiszeichen 9a (2010)"
+        image: "https://raw.githubusercontent.com/svengraziani/flippi-catalog/refs/heads/main/verkehrszeichen/Hinweiszeichen_9a.svg"
+        alt: "Hinweiszeichen 9a"
       option_a:
-        label: "Hinweiszeichen 9a (2010)"
+        label: "Hinweiszeichen 9a"
         correct: true
       option_b:
         label: "Anderes Verkehrszeichen"
         correct: false
-      explanation: "Richtig ist Option A. Quelle: StVO – Zeichen: Hinweiszeichen 9a (2010)."
+      explanation: "Richtig ist Option A. Quelle: StVO – Zeichen: Hinweiszeichen 9a."
       category: "Hinweiszeichen"
       difficulty: medium
-    - id: hinweiszeichen-9b-2010
+    - id: hinweiszeichen_9b
       prompt: "Welches Zeichen siehst du?"
       media:
-        image: "https://raw.githubusercontent.com/svengraziani/flippi-catalog/refs/heads/main/verkehrszeichen/Hinweiszeichen_9b_%282010%29.svg"
-        alt: "Hinweiszeichen 9b (2010)"
+        image: "https://raw.githubusercontent.com/svengraziani/flippi-catalog/refs/heads/main/verkehrszeichen/Hinweiszeichen_9b.svg"
+        alt: "Hinweiszeichen 9b"
       option_a:
-        label: "Hinweiszeichen 9b (2010)"
+        label: "Hinweiszeichen 9b"
         correct: true
       option_b:
         label: "Anderes Verkehrszeichen"
         correct: false
-      explanation: "Richtig ist Option A. Quelle: StVO – Zeichen: Hinweiszeichen 9b (2010)."
+      explanation: "Richtig ist Option A. Quelle: StVO – Zeichen: Hinweiszeichen 9b."
       category: "Hinweiszeichen"
       difficulty: medium
-    - id: hinweiszeichen-9c
+    - id: hinweiszeichen_9c
       prompt: "Welches Zeichen siehst du?"
       media:
         image: "https://raw.githubusercontent.com/svengraziani/flippi-catalog/refs/heads/main/verkehrszeichen/Hinweiszeichen_9c.svg"
@@ -1706,7 +1650,7 @@ catalog:
       explanation: "Richtig ist Option A. Quelle: StVO – Zeichen: Hinweiszeichen 9c."
       category: "Hinweiszeichen"
       difficulty: medium
-    - id: hinweiszeichen-9d
+    - id: hinweiszeichen_9d
       prompt: "Welches Zeichen siehst du?"
       media:
         image: "https://raw.githubusercontent.com/svengraziani/flippi-catalog/refs/heads/main/verkehrszeichen/Hinweiszeichen_9d.svg"
@@ -1720,7 +1664,7 @@ catalog:
       explanation: "Richtig ist Option A. Quelle: StVO – Zeichen: Hinweiszeichen 9d."
       category: "Hinweiszeichen"
       difficulty: medium
-    - id: hinweiszeichen-9e-new
+    - id: hinweiszeichen_9e_new
       prompt: "Welches Zeichen siehst du?"
       media:
         image: "https://raw.githubusercontent.com/svengraziani/flippi-catalog/refs/heads/main/verkehrszeichen/Hinweiszeichen_9e_new.svg"
@@ -1734,7 +1678,7 @@ catalog:
       explanation: "Richtig ist Option A. Quelle: StVO – Zeichen: Hinweiszeichen 9e new."
       category: "Hinweiszeichen"
       difficulty: medium
-    - id: hinweiszeichen-9f
+    - id: hinweiszeichen_9f
       prompt: "Welches Zeichen siehst du?"
       media:
         image: "https://raw.githubusercontent.com/svengraziani/flippi-catalog/refs/heads/main/verkehrszeichen/Hinweiszeichen_9f.svg"
@@ -1748,7 +1692,7 @@ catalog:
       explanation: "Richtig ist Option A. Quelle: StVO – Zeichen: Hinweiszeichen 9f."
       category: "Hinweiszeichen"
       difficulty: medium
-    - id: hinweiszeichen-9g
+    - id: hinweiszeichen_9g
       prompt: "Welches Zeichen siehst du?"
       media:
         image: "https://raw.githubusercontent.com/svengraziani/flippi-catalog/refs/heads/main/verkehrszeichen/Hinweiszeichen_9g.svg"
@@ -1762,7 +1706,7 @@ catalog:
       explanation: "Richtig ist Option A. Quelle: StVO – Zeichen: Hinweiszeichen 9g."
       category: "Hinweiszeichen"
       difficulty: medium
-    - id: location-of-europe
+    - id: location_of_europe
       prompt: "Welches Zeichen siehst du?"
       media:
         image: "https://raw.githubusercontent.com/svengraziani/flippi-catalog/refs/heads/main/verkehrszeichen/Location_of_Europe.svg"
@@ -1776,7 +1720,7 @@ catalog:
       explanation: "Richtig ist Option A. Quelle: StVO – Zeichen: Location of Europe."
       category: "Hinweiszeichen"
       difficulty: medium
-    - id: vorschriftszeichen-1
+    - id: vorschriftszeichen_1
       prompt: "Welches Zeichen siehst du?"
       media:
         image: "https://raw.githubusercontent.com/svengraziani/flippi-catalog/refs/heads/main/verkehrszeichen/Vorschriftszeichen_1.svg"
@@ -1790,35 +1734,35 @@ catalog:
       explanation: "Richtig ist Option A. Quelle: StVO – Zeichen: Vorschriftszeichen 1."
       category: "Verbots/Beschränkungszeichen (§52a)"
       difficulty: medium
-    - id: vorschriftszeichen-10a-2010
+    - id: vorschriftszeichen_10a
       prompt: "Welches Zeichen siehst du?"
       media:
-        image: "https://raw.githubusercontent.com/svengraziani/flippi-catalog/refs/heads/main/verkehrszeichen/Vorschriftszeichen_10a_%282010%29.svg"
-        alt: "Vorschriftszeichen 10a (2010)"
+        image: "https://raw.githubusercontent.com/svengraziani/flippi-catalog/refs/heads/main/verkehrszeichen/Vorschriftszeichen_10a.svg"
+        alt: "Vorschriftszeichen 10a"
       option_a:
-        label: "Vorschriftszeichen 10a (2010)"
+        label: "Vorschriftszeichen 10a"
         correct: true
       option_b:
         label: "Anderes Verkehrszeichen"
         correct: false
-      explanation: "Richtig ist Option A. Quelle: StVO – Zeichen: Vorschriftszeichen 10a (2010)."
+      explanation: "Richtig ist Option A. Quelle: StVO – Zeichen: Vorschriftszeichen 10a."
       category: "Gebotszeichen (§52b)"
       difficulty: medium
-    - id: vorschriftszeichen-10b-2010
+    - id: vorschriftszeichen_10b
       prompt: "Welches Zeichen siehst du?"
       media:
-        image: "https://raw.githubusercontent.com/svengraziani/flippi-catalog/refs/heads/main/verkehrszeichen/Vorschriftszeichen_10b_%282010%29.svg"
-        alt: "Vorschriftszeichen 10b (2010)"
+        image: "https://raw.githubusercontent.com/svengraziani/flippi-catalog/refs/heads/main/verkehrszeichen/Vorschriftszeichen_10b.svg"
+        alt: "Vorschriftszeichen 10b"
       option_a:
-        label: "Vorschriftszeichen 10b (2010)"
+        label: "Vorschriftszeichen 10b"
         correct: true
       option_b:
         label: "Anderes Verkehrszeichen"
         correct: false
-      explanation: "Richtig ist Option A. Quelle: StVO – Zeichen: Vorschriftszeichen 10b (2010)."
+      explanation: "Richtig ist Option A. Quelle: StVO – Zeichen: Vorschriftszeichen 10b."
       category: "Gebotszeichen (§52b)"
       difficulty: medium
-    - id: vorschriftszeichen-11
+    - id: vorschriftszeichen_11
       prompt: "Welches Zeichen siehst du?"
       media:
         image: "https://raw.githubusercontent.com/svengraziani/flippi-catalog/refs/heads/main/verkehrszeichen/Vorschriftszeichen_11.svg"
@@ -1832,49 +1776,49 @@ catalog:
       explanation: "Richtig ist Option A. Quelle: StVO – Zeichen: Vorschriftszeichen 11."
       category: "Gebotszeichen (§52b)"
       difficulty: medium
-    - id: vorschriftszeichen-11a-2010
+    - id: vorschriftszeichen_11a
       prompt: "Welches Zeichen siehst du?"
       media:
-        image: "https://raw.githubusercontent.com/svengraziani/flippi-catalog/refs/heads/main/verkehrszeichen/Vorschriftszeichen_11a_%282010%29.svg"
-        alt: "Vorschriftszeichen 11a (2010)"
+        image: "https://raw.githubusercontent.com/svengraziani/flippi-catalog/refs/heads/main/verkehrszeichen/Vorschriftszeichen_11a.svg"
+        alt: "Vorschriftszeichen 11a"
       option_a:
-        label: "Vorschriftszeichen 11a (2010)"
+        label: "Vorschriftszeichen 11a"
         correct: true
       option_b:
         label: "Anderes Verkehrszeichen"
         correct: false
-      explanation: "Richtig ist Option A. Quelle: StVO – Zeichen: Vorschriftszeichen 11a (2010)."
+      explanation: "Richtig ist Option A. Quelle: StVO – Zeichen: Vorschriftszeichen 11a."
       category: "Gebotszeichen (§52b)"
       difficulty: medium
-    - id: vorschriftszeichen-11b-2010
+    - id: vorschriftszeichen_11b
       prompt: "Welches Zeichen siehst du?"
       media:
-        image: "https://raw.githubusercontent.com/svengraziani/flippi-catalog/refs/heads/main/verkehrszeichen/Vorschriftszeichen_11b_%282010%29.svg"
-        alt: "Vorschriftszeichen 11b (2010)"
+        image: "https://raw.githubusercontent.com/svengraziani/flippi-catalog/refs/heads/main/verkehrszeichen/Vorschriftszeichen_11b.svg"
+        alt: "Vorschriftszeichen 11b"
       option_a:
-        label: "Vorschriftszeichen 11b (2010)"
+        label: "Vorschriftszeichen 11b"
         correct: true
       option_b:
         label: "Anderes Verkehrszeichen"
         correct: false
-      explanation: "Richtig ist Option A. Quelle: StVO – Zeichen: Vorschriftszeichen 11b (2010)."
+      explanation: "Richtig ist Option A. Quelle: StVO – Zeichen: Vorschriftszeichen 11b."
       category: "Gebotszeichen (§52b)"
       difficulty: medium
-    - id: vorschriftszeichen-12-2010
+    - id: vorschriftszeichen_12
       prompt: "Welches Zeichen siehst du?"
       media:
-        image: "https://raw.githubusercontent.com/svengraziani/flippi-catalog/refs/heads/main/verkehrszeichen/Vorschriftszeichen_12_%282010%29.svg"
-        alt: "Vorschriftszeichen 12 (2010)"
+        image: "https://raw.githubusercontent.com/svengraziani/flippi-catalog/refs/heads/main/verkehrszeichen/Vorschriftszeichen_12.svg"
+        alt: "Vorschriftszeichen 12"
       option_a:
-        label: "Vorschriftszeichen 12 (2010)"
+        label: "Vorschriftszeichen 12"
         correct: true
       option_b:
         label: "Anderes Verkehrszeichen"
         correct: false
-      explanation: "Richtig ist Option A. Quelle: StVO – Zeichen: Vorschriftszeichen 12 (2010)."
+      explanation: "Richtig ist Option A. Quelle: StVO – Zeichen: Vorschriftszeichen 12."
       category: "Gebotszeichen (§52b)"
       difficulty: medium
-    - id: vorschriftszeichen-13a
+    - id: vorschriftszeichen_13a
       prompt: "Welches Zeichen siehst du?"
       media:
         image: "https://raw.githubusercontent.com/svengraziani/flippi-catalog/refs/heads/main/verkehrszeichen/Vorschriftszeichen_13a.svg"
@@ -1888,7 +1832,7 @@ catalog:
       explanation: "Richtig ist Option A. Quelle: StVO – Zeichen: Vorschriftszeichen 13a."
       category: "Gebotszeichen (§52b)"
       difficulty: medium
-    - id: vorschriftszeichen-13b
+    - id: vorschriftszeichen_13b
       prompt: "Welches Zeichen siehst du?"
       media:
         image: "https://raw.githubusercontent.com/svengraziani/flippi-catalog/refs/heads/main/verkehrszeichen/Vorschriftszeichen_13b.svg"
@@ -1902,7 +1846,7 @@ catalog:
       explanation: "Richtig ist Option A. Quelle: StVO – Zeichen: Vorschriftszeichen 13b."
       category: "Gebotszeichen (§52b)"
       difficulty: medium
-    - id: vorschriftszeichen-13c-a
+    - id: vorschriftszeichen_13c-a
       prompt: "Welches Zeichen siehst du?"
       media:
         image: "https://raw.githubusercontent.com/svengraziani/flippi-catalog/refs/heads/main/verkehrszeichen/Vorschriftszeichen_13c-a.svg"
@@ -1916,7 +1860,7 @@ catalog:
       explanation: "Richtig ist Option A. Quelle: StVO – Zeichen: Vorschriftszeichen 13c-a."
       category: "Gebotszeichen (§52b)"
       difficulty: medium
-    - id: vorschriftszeichen-13c-b
+    - id: vorschriftszeichen_13c-b
       prompt: "Welches Zeichen siehst du?"
       media:
         image: "https://raw.githubusercontent.com/svengraziani/flippi-catalog/refs/heads/main/verkehrszeichen/Vorschriftszeichen_13c-b.svg"
@@ -1930,7 +1874,7 @@ catalog:
       explanation: "Richtig ist Option A. Quelle: StVO – Zeichen: Vorschriftszeichen 13c-b."
       category: "Gebotszeichen (§52b)"
       difficulty: medium
-    - id: vorschriftszeichen-13d
+    - id: vorschriftszeichen_13d
       prompt: "Welches Zeichen siehst du?"
       media:
         image: "https://raw.githubusercontent.com/svengraziani/flippi-catalog/refs/heads/main/verkehrszeichen/Vorschriftszeichen_13d.svg"
@@ -1944,7 +1888,7 @@ catalog:
       explanation: "Richtig ist Option A. Quelle: StVO – Zeichen: Vorschriftszeichen 13d."
       category: "Gebotszeichen (§52b)"
       difficulty: medium
-    - id: vorschriftszeichen-13e
+    - id: vorschriftszeichen_13e
       prompt: "Welches Zeichen siehst du?"
       media:
         image: "https://raw.githubusercontent.com/svengraziani/flippi-catalog/refs/heads/main/verkehrszeichen/Vorschriftszeichen_13e.svg"
@@ -1958,7 +1902,7 @@ catalog:
       explanation: "Richtig ist Option A. Quelle: StVO – Zeichen: Vorschriftszeichen 13e."
       category: "Gebotszeichen (§52b)"
       difficulty: medium
-    - id: vorschriftszeichen-14
+    - id: vorschriftszeichen_14
       prompt: "Welches Zeichen siehst du?"
       media:
         image: "https://raw.githubusercontent.com/svengraziani/flippi-catalog/refs/heads/main/verkehrszeichen/Vorschriftszeichen_14.svg"
@@ -1972,7 +1916,7 @@ catalog:
       explanation: "Richtig ist Option A. Quelle: StVO – Zeichen: Vorschriftszeichen 14."
       category: "Gebotszeichen (§52b)"
       difficulty: medium
-    - id: vorschriftszeichen-14a
+    - id: vorschriftszeichen_14a
       prompt: "Welches Zeichen siehst du?"
       media:
         image: "https://raw.githubusercontent.com/svengraziani/flippi-catalog/refs/heads/main/verkehrszeichen/Vorschriftszeichen_14a.svg"
@@ -1986,7 +1930,7 @@ catalog:
       explanation: "Richtig ist Option A. Quelle: StVO – Zeichen: Vorschriftszeichen 14a."
       category: "Gebotszeichen (§52b)"
       difficulty: medium
-    - id: vorschriftszeichen-14b
+    - id: vorschriftszeichen_14b
       prompt: "Welches Zeichen siehst du?"
       media:
         image: "https://raw.githubusercontent.com/svengraziani/flippi-catalog/refs/heads/main/verkehrszeichen/Vorschriftszeichen_14b.svg"
@@ -2000,7 +1944,7 @@ catalog:
       explanation: "Richtig ist Option A. Quelle: StVO – Zeichen: Vorschriftszeichen 14b."
       category: "Gebotszeichen (§52b)"
       difficulty: medium
-    - id: vorschriftszeichen-15-gerade
+    - id: vorschriftszeichen_15_gerade
       prompt: "Welches Zeichen siehst du?"
       media:
         image: "https://raw.githubusercontent.com/svengraziani/flippi-catalog/refs/heads/main/verkehrszeichen/Vorschriftszeichen_15_gerade.svg"
@@ -2014,7 +1958,7 @@ catalog:
       explanation: "Richtig ist Option A. Quelle: StVO – Zeichen: Vorschriftszeichen 15 gerade."
       category: "Gebotszeichen (§52b)"
       difficulty: medium
-    - id: vorschriftszeichen-15-gerade-links
+    - id: vorschriftszeichen_15_gerade_links
       prompt: "Welches Zeichen siehst du?"
       media:
         image: "https://raw.githubusercontent.com/svengraziani/flippi-catalog/refs/heads/main/verkehrszeichen/Vorschriftszeichen_15_gerade_links.svg"
@@ -2028,7 +1972,7 @@ catalog:
       explanation: "Richtig ist Option A. Quelle: StVO – Zeichen: Vorschriftszeichen 15 gerade links."
       category: "Gebotszeichen (§52b)"
       difficulty: medium
-    - id: vorschriftszeichen-15-gerade-rechts
+    - id: vorschriftszeichen_15_gerade_rechts
       prompt: "Welches Zeichen siehst du?"
       media:
         image: "https://raw.githubusercontent.com/svengraziani/flippi-catalog/refs/heads/main/verkehrszeichen/Vorschriftszeichen_15_gerade_rechts.svg"
@@ -2042,7 +1986,7 @@ catalog:
       explanation: "Richtig ist Option A. Quelle: StVO – Zeichen: Vorschriftszeichen 15 gerade rechts."
       category: "Gebotszeichen (§52b)"
       difficulty: medium
-    - id: vorschriftszeichen-15-links
+    - id: vorschriftszeichen_15_links
       prompt: "Welches Zeichen siehst du?"
       media:
         image: "https://raw.githubusercontent.com/svengraziani/flippi-catalog/refs/heads/main/verkehrszeichen/Vorschriftszeichen_15_links.svg"
@@ -2056,7 +2000,7 @@ catalog:
       explanation: "Richtig ist Option A. Quelle: StVO – Zeichen: Vorschriftszeichen 15 links."
       category: "Gebotszeichen (§52b)"
       difficulty: medium
-    - id: vorschriftszeichen-15-links-abb
+    - id: vorschriftszeichen_15_links_abb
       prompt: "Welches Zeichen siehst du?"
       media:
         image: "https://raw.githubusercontent.com/svengraziani/flippi-catalog/refs/heads/main/verkehrszeichen/Vorschriftszeichen_15_links_abb.svg"
@@ -2070,7 +2014,7 @@ catalog:
       explanation: "Richtig ist Option A. Quelle: StVO – Zeichen: Vorschriftszeichen 15 links abb."
       category: "Gebotszeichen (§52b)"
       difficulty: medium
-    - id: vorschriftszeichen-15-links-geneigt
+    - id: vorschriftszeichen_15_links_geneigt
       prompt: "Welches Zeichen siehst du?"
       media:
         image: "https://raw.githubusercontent.com/svengraziani/flippi-catalog/refs/heads/main/verkehrszeichen/Vorschriftszeichen_15_links_geneigt.svg"
@@ -2084,7 +2028,7 @@ catalog:
       explanation: "Richtig ist Option A. Quelle: StVO – Zeichen: Vorschriftszeichen 15 links geneigt."
       category: "Gebotszeichen (§52b)"
       difficulty: medium
-    - id: vorschriftszeichen-15-links-rechts
+    - id: vorschriftszeichen_15_links_rechts
       prompt: "Welches Zeichen siehst du?"
       media:
         image: "https://raw.githubusercontent.com/svengraziani/flippi-catalog/refs/heads/main/verkehrszeichen/Vorschriftszeichen_15_links_rechts.svg"
@@ -2098,7 +2042,7 @@ catalog:
       explanation: "Richtig ist Option A. Quelle: StVO – Zeichen: Vorschriftszeichen 15 links rechts."
       category: "Gebotszeichen (§52b)"
       difficulty: medium
-    - id: vorschriftszeichen-15-rechts
+    - id: vorschriftszeichen_15_rechts
       prompt: "Welches Zeichen siehst du?"
       media:
         image: "https://raw.githubusercontent.com/svengraziani/flippi-catalog/refs/heads/main/verkehrszeichen/Vorschriftszeichen_15_rechts.svg"
@@ -2112,7 +2056,7 @@ catalog:
       explanation: "Richtig ist Option A. Quelle: StVO – Zeichen: Vorschriftszeichen 15 rechts."
       category: "Gebotszeichen (§52b)"
       difficulty: medium
-    - id: vorschriftszeichen-15-rechts-abb
+    - id: vorschriftszeichen_15_rechts_abb
       prompt: "Welches Zeichen siehst du?"
       media:
         image: "https://raw.githubusercontent.com/svengraziani/flippi-catalog/refs/heads/main/verkehrszeichen/Vorschriftszeichen_15_rechts_abb.svg"
@@ -2126,7 +2070,7 @@ catalog:
       explanation: "Richtig ist Option A. Quelle: StVO – Zeichen: Vorschriftszeichen 15 rechts abb."
       category: "Gebotszeichen (§52b)"
       difficulty: medium
-    - id: vorschriftszeichen-15-rechts-geneigt
+    - id: vorschriftszeichen_15_rechts_geneigt
       prompt: "Welches Zeichen siehst du?"
       media:
         image: "https://raw.githubusercontent.com/svengraziani/flippi-catalog/refs/heads/main/verkehrszeichen/Vorschriftszeichen_15_rechts_geneigt.svg"
@@ -2140,7 +2084,7 @@ catalog:
       explanation: "Richtig ist Option A. Quelle: StVO – Zeichen: Vorschriftszeichen 15 rechts geneigt."
       category: "Gebotszeichen (§52b)"
       difficulty: medium
-    - id: vorschriftszeichen-15a
+    - id: vorschriftszeichen_15a
       prompt: "Welches Zeichen siehst du?"
       media:
         image: "https://raw.githubusercontent.com/svengraziani/flippi-catalog/refs/heads/main/verkehrszeichen/Vorschriftszeichen_15a.svg"
@@ -2154,7 +2098,7 @@ catalog:
       explanation: "Richtig ist Option A. Quelle: StVO – Zeichen: Vorschriftszeichen 15a."
       category: "Gebotszeichen (§52b)"
       difficulty: medium
-    - id: vorschriftszeichen-16
+    - id: vorschriftszeichen_16
       prompt: "Welches Zeichen siehst du?"
       media:
         image: "https://raw.githubusercontent.com/svengraziani/flippi-catalog/refs/heads/main/verkehrszeichen/Vorschriftszeichen_16.svg"
@@ -2168,7 +2112,7 @@ catalog:
       explanation: "Richtig ist Option A. Quelle: StVO – Zeichen: Vorschriftszeichen 16."
       category: "Gebotszeichen (§52b)"
       difficulty: medium
-    - id: vorschriftszeichen-16a
+    - id: vorschriftszeichen_16a
       prompt: "Welches Zeichen siehst du?"
       media:
         image: "https://raw.githubusercontent.com/svengraziani/flippi-catalog/refs/heads/main/verkehrszeichen/Vorschriftszeichen_16a.svg"
@@ -2182,7 +2126,7 @@ catalog:
       explanation: "Richtig ist Option A. Quelle: StVO – Zeichen: Vorschriftszeichen 16a."
       category: "Gebotszeichen (§52b)"
       difficulty: medium
-    - id: vorschriftszeichen-17
+    - id: vorschriftszeichen_17
       prompt: "Welches Zeichen siehst du?"
       media:
         image: "https://raw.githubusercontent.com/svengraziani/flippi-catalog/refs/heads/main/verkehrszeichen/Vorschriftszeichen_17.svg"
@@ -2196,7 +2140,7 @@ catalog:
       explanation: "Richtig ist Option A. Quelle: StVO – Zeichen: Vorschriftszeichen 17."
       category: "Gebotszeichen (§52b)"
       difficulty: medium
-    - id: vorschriftszeichen-17a-a
+    - id: vorschriftszeichen_17a-a
       prompt: "Welches Zeichen siehst du?"
       media:
         image: "https://raw.githubusercontent.com/svengraziani/flippi-catalog/refs/heads/main/verkehrszeichen/Vorschriftszeichen_17a-a.svg"
@@ -2210,7 +2154,7 @@ catalog:
       explanation: "Richtig ist Option A. Quelle: StVO – Zeichen: Vorschriftszeichen 17a-a."
       category: "Gebotszeichen (§52b)"
       difficulty: medium
-    - id: vorschriftszeichen-17a-b
+    - id: vorschriftszeichen_17a-b
       prompt: "Welches Zeichen siehst du?"
       media:
         image: "https://raw.githubusercontent.com/svengraziani/flippi-catalog/refs/heads/main/verkehrszeichen/Vorschriftszeichen_17a-b.svg"
@@ -2224,7 +2168,7 @@ catalog:
       explanation: "Richtig ist Option A. Quelle: StVO – Zeichen: Vorschriftszeichen 17a-b."
       category: "Gebotszeichen (§52b)"
       difficulty: medium
-    - id: vorschriftszeichen-17a-c
+    - id: vorschriftszeichen_17a-c
       prompt: "Welches Zeichen siehst du?"
       media:
         image: "https://raw.githubusercontent.com/svengraziani/flippi-catalog/refs/heads/main/verkehrszeichen/Vorschriftszeichen_17a-c.svg"
@@ -2238,7 +2182,7 @@ catalog:
       explanation: "Richtig ist Option A. Quelle: StVO – Zeichen: Vorschriftszeichen 17a-c."
       category: "Gebotszeichen (§52b)"
       difficulty: medium
-    - id: vorschriftszeichen-17a-d
+    - id: vorschriftszeichen_17a-d
       prompt: "Welches Zeichen siehst du?"
       media:
         image: "https://raw.githubusercontent.com/svengraziani/flippi-catalog/refs/heads/main/verkehrszeichen/Vorschriftszeichen_17a-d.svg"
@@ -2252,7 +2196,7 @@ catalog:
       explanation: "Richtig ist Option A. Quelle: StVO – Zeichen: Vorschriftszeichen 17a-d."
       category: "Gebotszeichen (§52b)"
       difficulty: medium
-    - id: vorschriftszeichen-17b
+    - id: vorschriftszeichen_17b
       prompt: "Welches Zeichen siehst du?"
       media:
         image: "https://raw.githubusercontent.com/svengraziani/flippi-catalog/refs/heads/main/verkehrszeichen/Vorschriftszeichen_17b.svg"
@@ -2266,7 +2210,7 @@ catalog:
       explanation: "Richtig ist Option A. Quelle: StVO – Zeichen: Vorschriftszeichen 17b."
       category: "Gebotszeichen (§52b)"
       difficulty: medium
-    - id: vorschriftszeichen-17c
+    - id: vorschriftszeichen_17c
       prompt: "Welches Zeichen siehst du?"
       media:
         image: "https://raw.githubusercontent.com/svengraziani/flippi-catalog/refs/heads/main/verkehrszeichen/Vorschriftszeichen_17c.svg"
@@ -2280,7 +2224,7 @@ catalog:
       explanation: "Richtig ist Option A. Quelle: StVO – Zeichen: Vorschriftszeichen 17c."
       category: "Gebotszeichen (§52b)"
       difficulty: medium
-    - id: vorschriftszeichen-18
+    - id: vorschriftszeichen_18
       prompt: "Welches Zeichen siehst du?"
       media:
         image: "https://raw.githubusercontent.com/svengraziani/flippi-catalog/refs/heads/main/verkehrszeichen/Vorschriftszeichen_18.svg"
@@ -2294,7 +2238,7 @@ catalog:
       explanation: "Richtig ist Option A. Quelle: StVO – Zeichen: Vorschriftszeichen 18."
       category: "Gebotszeichen (§52b)"
       difficulty: medium
-    - id: vorschriftszeichen-19
+    - id: vorschriftszeichen_19
       prompt: "Welches Zeichen siehst du?"
       media:
         image: "https://raw.githubusercontent.com/svengraziani/flippi-catalog/refs/heads/main/verkehrszeichen/Vorschriftszeichen_19.svg"
@@ -2308,7 +2252,7 @@ catalog:
       explanation: "Richtig ist Option A. Quelle: StVO – Zeichen: Vorschriftszeichen 19."
       category: "Gebotszeichen (§52b)"
       difficulty: medium
-    - id: vorschriftszeichen-19a
+    - id: vorschriftszeichen_19a
       prompt: "Welches Zeichen siehst du?"
       media:
         image: "https://raw.githubusercontent.com/svengraziani/flippi-catalog/refs/heads/main/verkehrszeichen/Vorschriftszeichen_19a.svg"
@@ -2322,7 +2266,7 @@ catalog:
       explanation: "Richtig ist Option A. Quelle: StVO – Zeichen: Vorschriftszeichen 19a."
       category: "Gebotszeichen (§52b)"
       difficulty: medium
-    - id: vorschriftszeichen-2
+    - id: vorschriftszeichen_2
       prompt: "Welches Zeichen siehst du?"
       media:
         image: "https://raw.githubusercontent.com/svengraziani/flippi-catalog/refs/heads/main/verkehrszeichen/Vorschriftszeichen_2.svg"
@@ -2336,7 +2280,7 @@ catalog:
       explanation: "Richtig ist Option A. Quelle: StVO – Zeichen: Vorschriftszeichen 2."
       category: "Verbots/Beschränkungszeichen (§52a)"
       difficulty: medium
-    - id: vorschriftszeichen-21
+    - id: vorschriftszeichen_21
       prompt: "Welches Zeichen siehst du?"
       media:
         image: "https://raw.githubusercontent.com/svengraziani/flippi-catalog/refs/heads/main/verkehrszeichen/Vorschriftszeichen_21.svg"
@@ -2350,7 +2294,7 @@ catalog:
       explanation: "Richtig ist Option A. Quelle: StVO – Zeichen: Vorschriftszeichen 21."
       category: "Vorrangzeichen (§52c)"
       difficulty: medium
-    - id: vorschriftszeichen-22
+    - id: vorschriftszeichen_22
       prompt: "Welches Zeichen siehst du?"
       media:
         image: "https://raw.githubusercontent.com/svengraziani/flippi-catalog/refs/heads/main/verkehrszeichen/Vorschriftszeichen_22.svg"
@@ -2364,7 +2308,7 @@ catalog:
       explanation: "Richtig ist Option A. Quelle: StVO – Zeichen: Vorschriftszeichen 22."
       category: "Vorrangzeichen (§52c)"
       difficulty: medium
-    - id: vorschriftszeichen-22a
+    - id: vorschriftszeichen_22a
       prompt: "Welches Zeichen siehst du?"
       media:
         image: "https://raw.githubusercontent.com/svengraziani/flippi-catalog/refs/heads/main/verkehrszeichen/Vorschriftszeichen_22a.svg"
@@ -2378,7 +2322,7 @@ catalog:
       explanation: "Richtig ist Option A. Quelle: StVO – Zeichen: Vorschriftszeichen 22a."
       category: "Vorrangzeichen (§52c)"
       difficulty: medium
-    - id: vorschriftszeichen-23
+    - id: vorschriftszeichen_23
       prompt: "Welches Zeichen siehst du?"
       media:
         image: "https://raw.githubusercontent.com/svengraziani/flippi-catalog/refs/heads/main/verkehrszeichen/Vorschriftszeichen_23.svg"
@@ -2392,35 +2336,21 @@ catalog:
       explanation: "Richtig ist Option A. Quelle: StVO – Zeichen: Vorschriftszeichen 23."
       category: "Vorrangzeichen (§52c)"
       difficulty: medium
-    - id: vorschriftszeichen-24-2010
+    - id: vorschriftszeichen_24
       prompt: "Welches Zeichen siehst du?"
       media:
-        image: "https://raw.githubusercontent.com/svengraziani/flippi-catalog/refs/heads/main/verkehrszeichen/Vorschriftszeichen_24_%282010%29.svg"
-        alt: "Vorschriftszeichen 24 (2010)"
+        image: "https://raw.githubusercontent.com/svengraziani/flippi-catalog/refs/heads/main/verkehrszeichen/Vorschriftszeichen_24.svg"
+        alt: "Vorschriftszeichen 24"
       option_a:
-        label: "Vorschriftszeichen 24 (2010)"
+        label: "Vorschriftszeichen 24"
         correct: true
       option_b:
         label: "Anderes Verkehrszeichen"
         correct: false
-      explanation: "Richtig ist Option A. Quelle: StVO – Zeichen: Vorschriftszeichen 24 (2010)."
+      explanation: "Richtig ist Option A. Quelle: StVO – Zeichen: Vorschriftszeichen 24."
       category: "Vorrangzeichen (§52c)"
       difficulty: medium
-    - id: vorschriftszeichen-24-old
-      prompt: "Welches Zeichen siehst du?"
-      media:
-        image: "https://raw.githubusercontent.com/svengraziani/flippi-catalog/refs/heads/main/verkehrszeichen/Vorschriftszeichen_24_%28old%29.svg"
-        alt: "Vorschriftszeichen 24 (old)"
-      option_a:
-        label: "Vorschriftszeichen 24 (old)"
-        correct: true
-      option_b:
-        label: "Anderes Verkehrszeichen"
-        correct: false
-      explanation: "Richtig ist Option A. Quelle: StVO – Zeichen: Vorschriftszeichen 24 (old)."
-      category: "Vorrangzeichen (§52c)"
-      difficulty: medium
-    - id: vorschriftszeichen-25a
+    - id: vorschriftszeichen_25a
       prompt: "Welches Zeichen siehst du?"
       media:
         image: "https://raw.githubusercontent.com/svengraziani/flippi-catalog/refs/heads/main/verkehrszeichen/Vorschriftszeichen_25a.svg"
@@ -2434,7 +2364,7 @@ catalog:
       explanation: "Richtig ist Option A. Quelle: StVO – Zeichen: Vorschriftszeichen 25a."
       category: "Vorrangzeichen (§52c)"
       difficulty: medium
-    - id: vorschriftszeichen-25b
+    - id: vorschriftszeichen_25b
       prompt: "Welches Zeichen siehst du?"
       media:
         image: "https://raw.githubusercontent.com/svengraziani/flippi-catalog/refs/heads/main/verkehrszeichen/Vorschriftszeichen_25b.svg"
@@ -2448,7 +2378,7 @@ catalog:
       explanation: "Richtig ist Option A. Quelle: StVO – Zeichen: Vorschriftszeichen 25b."
       category: "Vorrangzeichen (§52c)"
       difficulty: medium
-    - id: vorschriftszeichen-3a
+    - id: vorschriftszeichen_3a
       prompt: "Welches Zeichen siehst du?"
       media:
         image: "https://raw.githubusercontent.com/svengraziani/flippi-catalog/refs/heads/main/verkehrszeichen/Vorschriftszeichen_3a.svg"
@@ -2462,7 +2392,7 @@ catalog:
       explanation: "Richtig ist Option A. Quelle: StVO – Zeichen: Vorschriftszeichen 3a."
       category: "Verbots/Beschränkungszeichen (§52a)"
       difficulty: medium
-    - id: vorschriftszeichen-3b
+    - id: vorschriftszeichen_3b
       prompt: "Welches Zeichen siehst du?"
       media:
         image: "https://raw.githubusercontent.com/svengraziani/flippi-catalog/refs/heads/main/verkehrszeichen/Vorschriftszeichen_3b.svg"
@@ -2476,7 +2406,7 @@ catalog:
       explanation: "Richtig ist Option A. Quelle: StVO – Zeichen: Vorschriftszeichen 3b."
       category: "Verbots/Beschränkungszeichen (§52a)"
       difficulty: medium
-    - id: vorschriftszeichen-3c
+    - id: vorschriftszeichen_3c
       prompt: "Welches Zeichen siehst du?"
       media:
         image: "https://raw.githubusercontent.com/svengraziani/flippi-catalog/refs/heads/main/verkehrszeichen/Vorschriftszeichen_3c.svg"
@@ -2490,7 +2420,7 @@ catalog:
       explanation: "Richtig ist Option A. Quelle: StVO – Zeichen: Vorschriftszeichen 3c."
       category: "Verbots/Beschränkungszeichen (§52a)"
       difficulty: medium
-    - id: vorschriftszeichen-4a
+    - id: vorschriftszeichen_4a
       prompt: "Welches Zeichen siehst du?"
       media:
         image: "https://raw.githubusercontent.com/svengraziani/flippi-catalog/refs/heads/main/verkehrszeichen/Vorschriftszeichen_4a.svg"
@@ -2504,7 +2434,7 @@ catalog:
       explanation: "Richtig ist Option A. Quelle: StVO – Zeichen: Vorschriftszeichen 4a."
       category: "Verbots/Beschränkungszeichen (§52a)"
       difficulty: medium
-    - id: vorschriftszeichen-4b
+    - id: vorschriftszeichen_4b
       prompt: "Welches Zeichen siehst du?"
       media:
         image: "https://raw.githubusercontent.com/svengraziani/flippi-catalog/refs/heads/main/verkehrszeichen/Vorschriftszeichen_4b.svg"
@@ -2518,7 +2448,7 @@ catalog:
       explanation: "Richtig ist Option A. Quelle: StVO – Zeichen: Vorschriftszeichen 4b."
       category: "Verbots/Beschränkungszeichen (§52a)"
       difficulty: medium
-    - id: vorschriftszeichen-4c
+    - id: vorschriftszeichen_4c
       prompt: "Welches Zeichen siehst du?"
       media:
         image: "https://raw.githubusercontent.com/svengraziani/flippi-catalog/refs/heads/main/verkehrszeichen/Vorschriftszeichen_4c.svg"
@@ -2532,7 +2462,7 @@ catalog:
       explanation: "Richtig ist Option A. Quelle: StVO – Zeichen: Vorschriftszeichen 4c."
       category: "Verbots/Beschränkungszeichen (§52a)"
       difficulty: medium
-    - id: vorschriftszeichen-4d
+    - id: vorschriftszeichen_4d
       prompt: "Welches Zeichen siehst du?"
       media:
         image: "https://raw.githubusercontent.com/svengraziani/flippi-catalog/refs/heads/main/verkehrszeichen/Vorschriftszeichen_4d.svg"
@@ -2546,7 +2476,7 @@ catalog:
       explanation: "Richtig ist Option A. Quelle: StVO – Zeichen: Vorschriftszeichen 4d."
       category: "Verbots/Beschränkungszeichen (§52a)"
       difficulty: medium
-    - id: vorschriftszeichen-5
+    - id: vorschriftszeichen_5
       prompt: "Welches Zeichen siehst du?"
       media:
         image: "https://raw.githubusercontent.com/svengraziani/flippi-catalog/refs/heads/main/verkehrszeichen/Vorschriftszeichen_5.svg"
@@ -2560,7 +2490,7 @@ catalog:
       explanation: "Richtig ist Option A. Quelle: StVO – Zeichen: Vorschriftszeichen 5."
       category: "Verbots/Beschränkungszeichen (§52a)"
       difficulty: medium
-    - id: vorschriftszeichen-6a
+    - id: vorschriftszeichen_6a
       prompt: "Welches Zeichen siehst du?"
       media:
         image: "https://raw.githubusercontent.com/svengraziani/flippi-catalog/refs/heads/main/verkehrszeichen/Vorschriftszeichen_6a.svg"
@@ -2574,7 +2504,7 @@ catalog:
       explanation: "Richtig ist Option A. Quelle: StVO – Zeichen: Vorschriftszeichen 6a."
       category: "Verbots/Beschränkungszeichen (§52a)"
       difficulty: medium
-    - id: vorschriftszeichen-6b
+    - id: vorschriftszeichen_6b
       prompt: "Welches Zeichen siehst du?"
       media:
         image: "https://raw.githubusercontent.com/svengraziani/flippi-catalog/refs/heads/main/verkehrszeichen/Vorschriftszeichen_6b.svg"
@@ -2588,7 +2518,7 @@ catalog:
       explanation: "Richtig ist Option A. Quelle: StVO – Zeichen: Vorschriftszeichen 6b."
       category: "Verbots/Beschränkungszeichen (§52a)"
       difficulty: medium
-    - id: vorschriftszeichen-6c
+    - id: vorschriftszeichen_6c
       prompt: "Welches Zeichen siehst du?"
       media:
         image: "https://raw.githubusercontent.com/svengraziani/flippi-catalog/refs/heads/main/verkehrszeichen/Vorschriftszeichen_6c.svg"
@@ -2602,7 +2532,7 @@ catalog:
       explanation: "Richtig ist Option A. Quelle: StVO – Zeichen: Vorschriftszeichen 6c."
       category: "Verbots/Beschränkungszeichen (§52a)"
       difficulty: medium
-    - id: vorschriftszeichen-6d
+    - id: vorschriftszeichen_6d
       prompt: "Welches Zeichen siehst du?"
       media:
         image: "https://raw.githubusercontent.com/svengraziani/flippi-catalog/refs/heads/main/verkehrszeichen/Vorschriftszeichen_6d.svg"
@@ -2616,7 +2546,7 @@ catalog:
       explanation: "Richtig ist Option A. Quelle: StVO – Zeichen: Vorschriftszeichen 6d."
       category: "Verbots/Beschränkungszeichen (§52a)"
       difficulty: medium
-    - id: vorschriftszeichen-7a
+    - id: vorschriftszeichen_7a
       prompt: "Welches Zeichen siehst du?"
       media:
         image: "https://raw.githubusercontent.com/svengraziani/flippi-catalog/refs/heads/main/verkehrszeichen/Vorschriftszeichen_7a.svg"
@@ -2630,35 +2560,35 @@ catalog:
       explanation: "Richtig ist Option A. Quelle: StVO – Zeichen: Vorschriftszeichen 7a."
       category: "Verbots/Beschränkungszeichen (§52a)"
       difficulty: medium
-    - id: vorschriftszeichen-7a-gewicht-2010
+    - id: vorschriftszeichen_7a_gewicht
       prompt: "Welches Zeichen siehst du?"
       media:
-        image: "https://raw.githubusercontent.com/svengraziani/flippi-catalog/refs/heads/main/verkehrszeichen/Vorschriftszeichen_7a_Gewicht_%282010%29.svg"
-        alt: "Vorschriftszeichen 7a Gewicht (2010)"
+        image: "https://raw.githubusercontent.com/svengraziani/flippi-catalog/refs/heads/main/verkehrszeichen/Vorschriftszeichen_7a_Gewicht.svg"
+        alt: "Vorschriftszeichen 7a Gewicht"
       option_a:
-        label: "Vorschriftszeichen 7a Gewicht (2010)"
+        label: "Vorschriftszeichen 7a Gewicht"
         correct: true
       option_b:
         label: "Anderes Verkehrszeichen"
         correct: false
-      explanation: "Richtig ist Option A. Quelle: StVO – Zeichen: Vorschriftszeichen 7a Gewicht (2010)."
+      explanation: "Richtig ist Option A. Quelle: StVO – Zeichen: Vorschriftszeichen 7a Gewicht."
       category: "Verbots/Beschränkungszeichen (§52a)"
       difficulty: medium
-    - id: vorschriftszeichen-7a-laenge-2010
+    - id: vorschriftszeichen_7a_laenge
       prompt: "Welches Zeichen siehst du?"
       media:
-        image: "https://raw.githubusercontent.com/svengraziani/flippi-catalog/refs/heads/main/verkehrszeichen/Vorschriftszeichen_7a_L%C3%A4nge_%282010%29.svg"
-        alt: "Vorschriftszeichen 7a Länge (2010)"
+        image: "https://raw.githubusercontent.com/svengraziani/flippi-catalog/refs/heads/main/verkehrszeichen/Vorschriftszeichen_7a_Laenge.svg"
+        alt: "Vorschriftszeichen 7a Laenge"
       option_a:
-        label: "Vorschriftszeichen 7a Länge (2010)"
+        label: "Vorschriftszeichen 7a Laenge"
         correct: true
       option_b:
         label: "Anderes Verkehrszeichen"
         correct: false
-      explanation: "Richtig ist Option A. Quelle: StVO – Zeichen: Vorschriftszeichen 7a Länge (2010)."
+      explanation: "Richtig ist Option A. Quelle: StVO – Zeichen: Vorschriftszeichen 7a Laenge."
       category: "Verbots/Beschränkungszeichen (§52a)"
       difficulty: medium
-    - id: vorschriftszeichen-7b
+    - id: vorschriftszeichen_7b
       prompt: "Welches Zeichen siehst du?"
       media:
         image: "https://raw.githubusercontent.com/svengraziani/flippi-catalog/refs/heads/main/verkehrszeichen/Vorschriftszeichen_7b.svg"
@@ -2672,7 +2602,7 @@ catalog:
       explanation: "Richtig ist Option A. Quelle: StVO – Zeichen: Vorschriftszeichen 7b."
       category: "Verbots/Beschränkungszeichen (§52a)"
       difficulty: medium
-    - id: vorschriftszeichen-7c
+    - id: vorschriftszeichen_7c
       prompt: "Welches Zeichen siehst du?"
       media:
         image: "https://raw.githubusercontent.com/svengraziani/flippi-catalog/refs/heads/main/verkehrszeichen/Vorschriftszeichen_7c.svg"
@@ -2686,7 +2616,7 @@ catalog:
       explanation: "Richtig ist Option A. Quelle: StVO – Zeichen: Vorschriftszeichen 7c."
       category: "Verbots/Beschränkungszeichen (§52a)"
       difficulty: medium
-    - id: vorschriftszeichen-7e
+    - id: vorschriftszeichen_7e
       prompt: "Welches Zeichen siehst du?"
       media:
         image: "https://raw.githubusercontent.com/svengraziani/flippi-catalog/refs/heads/main/verkehrszeichen/Vorschriftszeichen_7e.svg"
@@ -2700,7 +2630,7 @@ catalog:
       explanation: "Richtig ist Option A. Quelle: StVO – Zeichen: Vorschriftszeichen 7e."
       category: "Verbots/Beschränkungszeichen (§52a)"
       difficulty: medium
-    - id: vorschriftszeichen-7f
+    - id: vorschriftszeichen_7f
       prompt: "Welches Zeichen siehst du?"
       media:
         image: "https://raw.githubusercontent.com/svengraziani/flippi-catalog/refs/heads/main/verkehrszeichen/Vorschriftszeichen_7f.svg"
@@ -2714,7 +2644,7 @@ catalog:
       explanation: "Richtig ist Option A. Quelle: StVO – Zeichen: Vorschriftszeichen 7f."
       category: "Verbots/Beschränkungszeichen (§52a)"
       difficulty: medium
-    - id: vorschriftszeichen-8a
+    - id: vorschriftszeichen_8a
       prompt: "Welches Zeichen siehst du?"
       media:
         image: "https://raw.githubusercontent.com/svengraziani/flippi-catalog/refs/heads/main/verkehrszeichen/Vorschriftszeichen_8a.svg"
@@ -2728,7 +2658,7 @@ catalog:
       explanation: "Richtig ist Option A. Quelle: StVO – Zeichen: Vorschriftszeichen 8a."
       category: "Verbots/Beschränkungszeichen (§52a)"
       difficulty: medium
-    - id: vorschriftszeichen-8b
+    - id: vorschriftszeichen_8b
       prompt: "Welches Zeichen siehst du?"
       media:
         image: "https://raw.githubusercontent.com/svengraziani/flippi-catalog/refs/heads/main/verkehrszeichen/Vorschriftszeichen_8b.svg"
@@ -2742,7 +2672,7 @@ catalog:
       explanation: "Richtig ist Option A. Quelle: StVO – Zeichen: Vorschriftszeichen 8b."
       category: "Verbots/Beschränkungszeichen (§52a)"
       difficulty: medium
-    - id: vorschriftszeichen-8c
+    - id: vorschriftszeichen_8c
       prompt: "Welches Zeichen siehst du?"
       media:
         image: "https://raw.githubusercontent.com/svengraziani/flippi-catalog/refs/heads/main/verkehrszeichen/Vorschriftszeichen_8c.svg"
@@ -2756,63 +2686,63 @@ catalog:
       explanation: "Richtig ist Option A. Quelle: StVO – Zeichen: Vorschriftszeichen 8c."
       category: "Verbots/Beschränkungszeichen (§52a)"
       difficulty: medium
-    - id: vorschriftszeichen-9a-2010
+    - id: vorschriftszeichen_9a
       prompt: "Welches Zeichen siehst du?"
       media:
-        image: "https://raw.githubusercontent.com/svengraziani/flippi-catalog/refs/heads/main/verkehrszeichen/Vorschriftszeichen_9a_%282010%29.svg"
-        alt: "Vorschriftszeichen 9a (2010)"
+        image: "https://raw.githubusercontent.com/svengraziani/flippi-catalog/refs/heads/main/verkehrszeichen/Vorschriftszeichen_9a.svg"
+        alt: "Vorschriftszeichen 9a"
       option_a:
-        label: "Vorschriftszeichen 9a (2010)"
+        label: "Vorschriftszeichen 9a"
         correct: true
       option_b:
         label: "Anderes Verkehrszeichen"
         correct: false
-      explanation: "Richtig ist Option A. Quelle: StVO – Zeichen: Vorschriftszeichen 9a (2010)."
+      explanation: "Richtig ist Option A. Quelle: StVO – Zeichen: Vorschriftszeichen 9a."
       category: "Verbots/Beschränkungszeichen (§52a)"
       difficulty: medium
-    - id: vorschriftszeichen-9b-2010
+    - id: vorschriftszeichen_9b
       prompt: "Welches Zeichen siehst du?"
       media:
-        image: "https://raw.githubusercontent.com/svengraziani/flippi-catalog/refs/heads/main/verkehrszeichen/Vorschriftszeichen_9b_%282010%29.svg"
-        alt: "Vorschriftszeichen 9b (2010)"
+        image: "https://raw.githubusercontent.com/svengraziani/flippi-catalog/refs/heads/main/verkehrszeichen/Vorschriftszeichen_9b.svg"
+        alt: "Vorschriftszeichen 9b"
       option_a:
-        label: "Vorschriftszeichen 9b (2010)"
+        label: "Vorschriftszeichen 9b"
         correct: true
       option_b:
         label: "Anderes Verkehrszeichen"
         correct: false
-      explanation: "Richtig ist Option A. Quelle: StVO – Zeichen: Vorschriftszeichen 9b (2010)."
+      explanation: "Richtig ist Option A. Quelle: StVO – Zeichen: Vorschriftszeichen 9b."
       category: "Verbots/Beschränkungszeichen (§52a)"
       difficulty: medium
-    - id: vorschriftszeichen-9c-2010
+    - id: vorschriftszeichen_9c
       prompt: "Welches Zeichen siehst du?"
       media:
-        image: "https://raw.githubusercontent.com/svengraziani/flippi-catalog/refs/heads/main/verkehrszeichen/Vorschriftszeichen_9c_%282010%29.svg"
-        alt: "Vorschriftszeichen 9c (2010)"
+        image: "https://raw.githubusercontent.com/svengraziani/flippi-catalog/refs/heads/main/verkehrszeichen/Vorschriftszeichen_9c.svg"
+        alt: "Vorschriftszeichen 9c"
       option_a:
-        label: "Vorschriftszeichen 9c (2010)"
+        label: "Vorschriftszeichen 9c"
         correct: true
       option_b:
         label: "Anderes Verkehrszeichen"
         correct: false
-      explanation: "Richtig ist Option A. Quelle: StVO – Zeichen: Vorschriftszeichen 9c (2010)."
+      explanation: "Richtig ist Option A. Quelle: StVO – Zeichen: Vorschriftszeichen 9c."
       category: "Verbots/Beschränkungszeichen (§52a)"
       difficulty: medium
-    - id: vorschriftszeichen-9d-2010
+    - id: vorschriftszeichen_9d
       prompt: "Welches Zeichen siehst du?"
       media:
-        image: "https://raw.githubusercontent.com/svengraziani/flippi-catalog/refs/heads/main/verkehrszeichen/Vorschriftszeichen_9d_%282010%29.svg"
-        alt: "Vorschriftszeichen 9d (2010)"
+        image: "https://raw.githubusercontent.com/svengraziani/flippi-catalog/refs/heads/main/verkehrszeichen/Vorschriftszeichen_9d.svg"
+        alt: "Vorschriftszeichen 9d"
       option_a:
-        label: "Vorschriftszeichen 9d (2010)"
+        label: "Vorschriftszeichen 9d"
         correct: true
       option_b:
         label: "Anderes Verkehrszeichen"
         correct: false
-      explanation: "Richtig ist Option A. Quelle: StVO – Zeichen: Vorschriftszeichen 9d (2010)."
+      explanation: "Richtig ist Option A. Quelle: StVO – Zeichen: Vorschriftszeichen 9d."
       category: "Verbots/Beschränkungszeichen (§52a)"
       difficulty: medium
-    - id: zusatztafel-a
+    - id: zusatztafel_a
       prompt: "Welches Zeichen siehst du?"
       media:
         image: "https://raw.githubusercontent.com/svengraziani/flippi-catalog/refs/heads/main/verkehrszeichen/Zusatztafel_a.svg"
@@ -2826,7 +2756,7 @@ catalog:
       explanation: "Richtig ist Option A. Quelle: StVO – Zeichen: Zusatztafel a."
       category: "Zusatztafeln"
       difficulty: medium
-    - id: zusatztafel-b
+    - id: zusatztafel_b
       prompt: "Welches Zeichen siehst du?"
       media:
         image: "https://raw.githubusercontent.com/svengraziani/flippi-catalog/refs/heads/main/verkehrszeichen/Zusatztafel_b.svg"
@@ -2840,7 +2770,7 @@ catalog:
       explanation: "Richtig ist Option A. Quelle: StVO – Zeichen: Zusatztafel b."
       category: "Zusatztafeln"
       difficulty: medium
-    - id: zusatztafel-c
+    - id: zusatztafel_c
       prompt: "Welches Zeichen siehst du?"
       media:
         image: "https://raw.githubusercontent.com/svengraziani/flippi-catalog/refs/heads/main/verkehrszeichen/Zusatztafel_c.svg"
@@ -2854,7 +2784,7 @@ catalog:
       explanation: "Richtig ist Option A. Quelle: StVO – Zeichen: Zusatztafel c."
       category: "Zusatztafeln"
       difficulty: medium
-    - id: zusatztafel-d
+    - id: zusatztafel_d
       prompt: "Welches Zeichen siehst du?"
       media:
         image: "https://raw.githubusercontent.com/svengraziani/flippi-catalog/refs/heads/main/verkehrszeichen/Zusatztafel_d.svg"
@@ -2868,7 +2798,7 @@ catalog:
       explanation: "Richtig ist Option A. Quelle: StVO – Zeichen: Zusatztafel d."
       category: "Zusatztafeln"
       difficulty: medium
-    - id: zusatztafel-e
+    - id: zusatztafel_e
       prompt: "Welches Zeichen siehst du?"
       media:
         image: "https://raw.githubusercontent.com/svengraziani/flippi-catalog/refs/heads/main/verkehrszeichen/Zusatztafel_e.svg"
@@ -2882,7 +2812,7 @@ catalog:
       explanation: "Richtig ist Option A. Quelle: StVO – Zeichen: Zusatztafel e."
       category: "Zusatztafeln"
       difficulty: medium
-    - id: zusatztafel-f
+    - id: zusatztafel_f
       prompt: "Welches Zeichen siehst du?"
       media:
         image: "https://raw.githubusercontent.com/svengraziani/flippi-catalog/refs/heads/main/verkehrszeichen/Zusatztafel_f.svg"
@@ -2896,7 +2826,7 @@ catalog:
       explanation: "Richtig ist Option A. Quelle: StVO – Zeichen: Zusatztafel f."
       category: "Zusatztafeln"
       difficulty: medium
-    - id: zusatztafel-g
+    - id: zusatztafel_g
       prompt: "Welches Zeichen siehst du?"
       media:
         image: "https://raw.githubusercontent.com/svengraziani/flippi-catalog/refs/heads/main/verkehrszeichen/Zusatztafel_g.svg"
@@ -2910,7 +2840,7 @@ catalog:
       explanation: "Richtig ist Option A. Quelle: StVO – Zeichen: Zusatztafel g."
       category: "Zusatztafeln"
       difficulty: medium
-    - id: zusatztafel-h
+    - id: zusatztafel_h
       prompt: "Welches Zeichen siehst du?"
       media:
         image: "https://raw.githubusercontent.com/svengraziani/flippi-catalog/refs/heads/main/verkehrszeichen/Zusatztafel_h.svg"
@@ -2924,7 +2854,7 @@ catalog:
       explanation: "Richtig ist Option A. Quelle: StVO – Zeichen: Zusatztafel h."
       category: "Zusatztafeln"
       difficulty: medium
-    - id: zusatztafel-i
+    - id: zusatztafel_i
       prompt: "Welches Zeichen siehst du?"
       media:
         image: "https://raw.githubusercontent.com/svengraziani/flippi-catalog/refs/heads/main/verkehrszeichen/Zusatztafel_i.svg"
@@ -2938,7 +2868,7 @@ catalog:
       explanation: "Richtig ist Option A. Quelle: StVO – Zeichen: Zusatztafel i."
       category: "Zusatztafeln"
       difficulty: medium
-    - id: zusatztafel-j
+    - id: zusatztafel_j
       prompt: "Welches Zeichen siehst du?"
       media:
         image: "https://raw.githubusercontent.com/svengraziani/flippi-catalog/refs/heads/main/verkehrszeichen/Zusatztafel_j.svg"
@@ -2952,7 +2882,7 @@ catalog:
       explanation: "Richtig ist Option A. Quelle: StVO – Zeichen: Zusatztafel j."
       category: "Zusatztafeln"
       difficulty: medium
-    - id: zusatztafel-k
+    - id: zusatztafel_k
       prompt: "Welches Zeichen siehst du?"
       media:
         image: "https://raw.githubusercontent.com/svengraziani/flippi-catalog/refs/heads/main/verkehrszeichen/Zusatztafel_k.svg"
@@ -2966,7 +2896,7 @@ catalog:
       explanation: "Richtig ist Option A. Quelle: StVO – Zeichen: Zusatztafel k."
       category: "Zusatztafeln"
       difficulty: medium
-    - id: zusatztafel-l
+    - id: zusatztafel_l
       prompt: "Welches Zeichen siehst du?"
       media:
         image: "https://raw.githubusercontent.com/svengraziani/flippi-catalog/refs/heads/main/verkehrszeichen/Zusatztafel_l.svg"
@@ -2980,7 +2910,7 @@ catalog:
       explanation: "Richtig ist Option A. Quelle: StVO – Zeichen: Zusatztafel l."
       category: "Zusatztafeln"
       difficulty: medium
-    - id: zusatztafel-m
+    - id: zusatztafel_m
       prompt: "Welches Zeichen siehst du?"
       media:
         image: "https://raw.githubusercontent.com/svengraziani/flippi-catalog/refs/heads/main/verkehrszeichen/Zusatztafel_m.svg"
