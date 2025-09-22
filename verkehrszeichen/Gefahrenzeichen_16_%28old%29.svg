@@ -1,0 +1,72 @@
+<?xml version="1.0" encoding="UTF-8" standalone="no"?>
+<!-- Created with Inkscape (http://www.inkscape.org/) -->
+
+<svg
+   xmlns:dc="http://purl.org/dc/elements/1.1/"
+   xmlns:cc="http://creativecommons.org/ns#"
+   xmlns:rdf="http://www.w3.org/1999/02/22-rdf-syntax-ns#"
+   xmlns:svg="http://www.w3.org/2000/svg"
+   xmlns="http://www.w3.org/2000/svg"
+   xmlns:sodipodi="http://sodipodi.sourceforge.net/DTD/sodipodi-0.dtd"
+   xmlns:inkscape="http://www.inkscape.org/namespaces/inkscape"
+   version="1.0"
+   width="999.99994"
+   height="873.01569"
+   id="svg4776"
+   inkscape:version="0.91 r13725"
+   sodipodi:docname="Gefahrenzeichen_16.svg">
+  <metadata
+     id="metadata10">
+    <rdf:RDF>
+      <cc:Work
+         rdf:about="">
+        <dc:format>image/svg+xml</dc:format>
+        <dc:type
+           rdf:resource="http://purl.org/dc/dcmitype/StillImage" />
+      </cc:Work>
+    </rdf:RDF>
+  </metadata>
+  <sodipodi:namedview
+     pagecolor="#ffffff"
+     bordercolor="#666666"
+     borderopacity="1"
+     objecttolerance="10"
+     gridtolerance="10"
+     guidetolerance="10"
+     inkscape:pageopacity="0"
+     inkscape:pageshadow="2"
+     inkscape:window-width="1920"
+     inkscape:window-height="1057"
+     id="namedview8"
+     showgrid="false"
+     inkscape:zoom="0.76460115"
+     inkscape:cx="506.69518"
+     inkscape:cy="424.65613"
+     inkscape:window-x="-8"
+     inkscape:window-y="-8"
+     inkscape:window-maximized="1"
+     inkscape:current-layer="layer1" />
+  <defs
+     id="defs4778" />
+  <g
+     transform="translate(-679.4002,648.0664)"
+     id="layer1">
+    <path
+       d="M 1153.8419,-629.83354 C 1167.8814,-654.14401 1190.8618,-654.14401 1204.9136,-629.83354 L 1673.4013,180.74956 C 1687.4531,205.04772 1675.9629,224.92467 1647.8716,224.92467 L 710.9332,224.9493 C 682.84192,224.9493 671.35171,205.07235 685.39119,180.77419 L 1153.8419,-629.83354 z "
+       style="fill:#ee1c23;fill-rule:nonzero;stroke:none"
+       id="path4789" />
+    <path
+       d="M 840.23191,120.99555 L 1518.5483,120.97092 L 1179.3716,-465.86715 L 840.23191,120.99555"
+       style="fill:white;fill-rule:nonzero;stroke:none"
+       id="path317" />
+    <rect
+       style="opacity:1;fill:#000000;fill-opacity:1;stroke:none;stroke-width:25;stroke-linejoin:miter;stroke-miterlimit:4;stroke-dasharray:none;stroke-dashoffset:0;stroke-opacity:1"
+       id="rect4158"
+       width="80"
+       height="391.38892"
+       x="1139.4001"
+       y="-306.43964"
+       rx="40"
+       ry="40" />
+  </g>
+</svg>
