@@ -6,7 +6,7 @@ catalog:
   tags: [österreich, verkehrszeichen, svg, stvo]
   difficulty: medium
   categories: ["Gefahrenzeichen (§50)", "Verbots/Beschränkungszeichen (§52a)", "Gebotszeichen (§52b)", "Vorrangzeichen (§52c)"]
-  shuffle: true
+  shuffle: false
   swipe_mapping:
     left: option_a
     right: option_b
@@ -16,7 +16,7 @@ catalog:
     - id: vz-52a-001
       prompt: "Welches Zeichen ist „Fahrverbot (in beiden Richtungen)“?"
       media:
-        image: "https://upload.wikimedia.org/wikipedia/commons/3/37/Vorschriftszeichen_1.svg"
+        image: "https://raw.githubusercontent.com/svengraziani/flippi-catalog/refs/heads/main/verkehrszeichen/Vorschriftszeichen_1.svg"
         alt: "Vorschriftszeichen 1 – Fahrverbot (in beiden Richtungen)"
       option_a:
         label: "Fahrverbot (in beiden Richtungen)"
@@ -31,7 +31,7 @@ catalog:
     - id: vz-52a-002
       prompt: "Welches Zeichen ist „Einfahrt verboten“?"
       media:
-        image: "https://upload.wikimedia.org/wikipedia/commons/d/d0/Vorschriftszeichen_2.svg"
+        image: "https://raw.githubusercontent.com/svengraziani/flippi-catalog/refs/heads/main/verkehrszeichen/Vorschriftszeichen_2.svg"
         alt: "Vorschriftszeichen 2 – Einfahrt verboten"
       option_a:
         label: "Einfahrt verboten"
@@ -39,14 +39,14 @@ catalog:
       option_b:
         label: "Gegenverkehr hat Vorrang"
         correct: false
-      explanation: "Rote Scheibe mit weißem Balken: Einfahrt verboten."
+      explanation: "Rote Scheibe mit weißem, horizontalem Balken: Einfahrt verboten."
       category: "Verbots/Beschränkungszeichen (§52a)"
       difficulty: medium
 
     - id: vz-52a-003a
       prompt: "Welches Zeichen ist „Einbiegen nach links verboten“?"
       media:
-        image: "https://upload.wikimedia.org/wikipedia/commons/9/98/Vorschriftszeichen_3a.svg"
+        image: "https://raw.githubusercontent.com/svengraziani/flippi-catalog/refs/heads/main/verkehrszeichen/Vorschriftszeichen_3a.svg"
         alt: "Vorschriftszeichen 3a – Einbiegen nach links verboten"
       option_a:
         label: "Einbiegen nach links verboten"
@@ -54,14 +54,14 @@ catalog:
       option_b:
         label: "Linksabbiegen vorgeschrieben"
         correct: false
-      explanation: "Durchgestrichener Linkspfeil."
+      explanation: "Durchgestrichener Linkspfeil: Nach links einbiegen ist untersagt."
       category: "Verbots/Beschränkungszeichen (§52a)"
       difficulty: medium
 
     - id: vz-52a-003b
       prompt: "Welches Zeichen ist „Einbiegen nach rechts verboten“?"
       media:
-        image: "https://upload.wikimedia.org/wikipedia/commons/3/36/Vorschriftszeichen_3b.svg"
+        image: "https://raw.githubusercontent.com/svengraziani/flippi-catalog/refs/heads/main/verkehrszeichen/Vorschriftszeichen_3b.svg"
         alt: "Vorschriftszeichen 3b – Einbiegen nach rechts verboten"
       option_a:
         label: "Einbiegen nach rechts verboten"
@@ -69,36 +69,37 @@ catalog:
       option_b:
         label: "Rechtsabbiegen vorgeschrieben"
         correct: false
-      explanation: "Durchgestrichener Rechtspfeil."
+      explanation: "Durchgestrichener Rechtspfeil: Nach rechts einbiegen ist untersagt."
       category: "Verbots/Beschränkungszeichen (§52a)"
       difficulty: medium
 
     - id: vz-52a-003c
-      prompt: "Welches Zeichen ist „Umkehren verboten“?"
+      prompt: "Welches Zeichen ist „Geradeausfahren verboten“?"
       media:
-        image: "https://upload.wikimedia.org/wikipedia/commons/8/8a/Vorschriftszeichen_3c.svg"
-        alt: "Vorschriftszeichen 3c – Umkehren verboten"
+        image: "https://raw.githubusercontent.com/svengraziani/flippi-catalog/refs/heads/main/verkehrszeichen/Vorschriftszeichen_3c.svg"
+        alt: "Vorschriftszeichen 3c – Geradeausfahren verboten"
       option_a:
-        label: "Umkehren verboten"
+        label: "Geradeausfahren verboten"
         correct: true
       option_b:
-        label: "Wenden erlaubt"
+        label: "Geradeausfahren vorgeschrieben"
         correct: false
-      explanation: "Durchgestrichener U-Turn."
+      explanation: "Durchgestrichener Geradeauspfeil: Geradeaus ist untersagt."
       category: "Verbots/Beschränkungszeichen (§52a)"
       difficulty: medium
 
-    - id: vz-52a-004a
-      prompt: "Welches Zeichen ist „Überholen von mehrspurigen KFZ verboten“?"
+    # ---------- §52 lit. c) Vorrangzeichen ----------
+    - id: vz-52c-stop
+      prompt: "Welches Zeichen ist „Halt (Stopp) – Vorschriftszeichen“?"
       media:
-        image: "https://upload.wikimedia.org/wikipedia/commons/6/6c/Vorschriftszeichen_4a.svg"
-        alt: "Vorschriftszeichen 4a – Überholen verboten"
+        image: "https://raw.githubusercontent.com/svengraziani/flippi-catalog/refs/heads/main/verkehrszeichen/B21a.svg"
+        alt: "B21a – Halt (Stopp)"
       option_a:
-        label: "Überholen von mehrspurigen KFZ verboten"
+        label: "Halt (Stopp) – anhalten und Vorrang geben"
         correct: true
       option_b:
-        label: "Ende des Überholverbotes"
+        label: "Vorrang geben (ohne Anhaltepflicht)"
         correct: false
-      explanation: "Rotes Auto links, schwarzes rechts: Überholverbot."
-      category: "Verbots/Beschränkungszeichen (§52a)"
+      explanation: "Achteckiges rotes STOP-Schild: Es besteht Anhaltepflicht und Vorrang ist zu geben."
+      category: "Vorrangzeichen (§52c)"
       difficulty: medium
