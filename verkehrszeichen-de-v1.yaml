@@ -2633,7 +2633,7 @@ catalog:
     - id: vorschriftszeichen-7a-gewicht-2010
       prompt: "Welches Zeichen siehst du?"
       media:
-        image: "https://raw.githubusercontent.com/svengraziani/flippi-catalog/refs/heads/main/verkehrszeichen/Vorschriftszeichen_7a_Gewicht_%25282010%2529.svg"
+        image: "https://raw.githubusercontent.com/svengraziani/flippi-catalog/refs/heads/main/verkehrszeichen/Vorschriftszeichen_7a_Gewicht_%282010%29.svg"
         alt: "Vorschriftszeichen 7a Gewicht (2010)"
       option_a:
         label: "Vorschriftszeichen 7a Gewicht (2010)"
